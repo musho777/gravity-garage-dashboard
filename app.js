@@ -200,6 +200,14 @@ function profileSVG(m, w = 300, h = 56, full = false) {
       ticks += `<line x1="${px}" x2="${px}" y1="0" y2="${h}" stroke="currentColor" stroke-opacity=".08"/><text x="${px + 3}" y="${h - 4}" font-size="10" fill="currentColor" fill-opacity=".5">${x} m</text>`;
     }
   }
+  if (full && m.milestones) {
+    for (const ms of m.milestones) {
+      if (ms.d > len) break;
+      const px = (ms.d / len) * w;
+      const i = Math.min(p.length - 1, Math.round(ms.d / step));
+      ticks += `<line x1="${px}" x2="${px}" y1="${ys(p[i])}" y2="${ys(p[i]) - 22}" stroke="var(--gold)" stroke-width="2" vector-effect="non-scaling-stroke"/><path d="M${px} ${ys(p[i]) - 22} l9 4 l-9 4 z" fill="var(--gold)"/>`;
+    }
+  }
   return `<svg class="${full ? "big-profile" : "profile"}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="Hill profile, first ${len} m">
     ${ticks}<path d="${d}" fill="${esc(m.soil)}" fill-opacity=".85"/><path d="${line}" fill="none" stroke="currentColor" stroke-opacity=".75" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>`;
 }
@@ -215,7 +223,8 @@ function renderMaps() {
       <div class="body">
         <h3>${esc(m.name)} <span class="price ${m.cost ? "" : "free"}">${m.cost ? m.cost.toLocaleString() : "Free"}</span></h3>
         <div class="trait">${esc(m.tag)}</div>
-        <div class="facts"><span>Gravity <b>${gravityLabel(m.g)}</b></span><span>Grip <b>${fmt(m.ground)}</b></span><span>Hills <b>${fmt(m.amp)}</b></span><span>Coins <b>×${m.coin}</b></span></div>
+        <div class="facts"><span>Gravity <b>${gravityLabel(m.g)}</b></span><span>Grip <b>${fmt(m.ground)}</b></span><span>Hills <b>${fmt(m.amp)}</b></span><span>Coins <b>×${m.coin}</b></span>${m.milestones ? `<span>1st prize <b>${m.milestones[0].d} m</b></span>` : ""}</div>
+        ${m.obstacles ? `<div class="facts"><span>Obstacles <b>${m.obstacles.map(esc).join(", ")}</b></span></div>` : ""}
         ${profileSVG(m)}
       </div>
     </button>`
@@ -262,6 +271,15 @@ function openMap(id) {
              <div class="facts"><span>Highest <b>${fmt(Math.max(...p), 1)} m</b></span><span>Lowest <b>${fmt(Math.min(...p), 1)} m</b></span><span>Total climb <b>${fmt(climb, 0)} m</b></span></div></div>`
           : ""
       }
+      ${
+        m.milestones
+          ? `<div class="wide"><h4>Milestone prizes <span style="text-transform:none;letter-spacing:0;font-weight:400">— paid once each, every next one pays more</span></h4>
+             <table class="specs miles">${m.milestones
+               .map((ms, i) => specRow(`#${i + 1} &nbsp;at <b>${ms.d.toLocaleString()} m</b>`, `${ms.coins.toLocaleString()} coins`))
+               .join("")}${specRow("All 10 together", `${m.milestones.reduce((a, b) => a + b.coins, 0).toLocaleString()} coins`)}</table></div>`
+          : ""
+      }
+      ${m.obstacles ? `<div class="wide"><h4>Obstacles</h4><div class="kv">${m.obstacles.map((o) => `<span class="pill">${esc(o)}</span>`).join("")}</div></div>` : ""}
       <div class="wide"><h4>Colors</h4><div class="palette">${colors
         .map((k) => `<span title="${k} ${esc(m[k])}" style="background:${esc(m[k])}"></span>`)
         .join("")}</div></div>
