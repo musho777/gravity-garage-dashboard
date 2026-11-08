@@ -1,0 +1,38 @@
+{
+ "sha": "c9e8f99ae03263cd40d62ae76ee8fc5aa17e4329",
+ "short": "c9e8f99",
+ "parents": [
+  "893dffadc869bd0499cc2992fe608456236f6a76"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:30:46+04:00",
+ "subject": "Add TIRES tab to TUNE: 5 tire styles for every car",
+ "body": "Original, Whitewall, Racing (+4% speed, -4% grip, rim in the car's\npaint), Off-road (+6% grip, -3% speed, chunky treads), Neon (glowing\ncyan rims) and Gold. Each car remembers its tires; they show in runs,\nthe garage and share pictures, and the speed/grip effects apply to the\nphysics and the stat bars. Bought once, usable on all cars, with\npreview-before-buy like paint and decals.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 58,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 16,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 18,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 10,
+   "del": 6,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

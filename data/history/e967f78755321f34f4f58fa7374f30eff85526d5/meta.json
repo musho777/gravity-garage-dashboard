@@ -1,0 +1,122 @@
+{
+ "sha": "e967f78755321f34f4f58fa7374f30eff85526d5",
+ "short": "e967f78",
+ "parents": [
+  "0372c4dcb8cbd78722c86655a01053cdc887d83d"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T22:54:01+04:00",
+ "subject": "Add Ambulance car from Kenney Car Kit with picture-based car support",
+ "body": "- tools/render_car.gd renders a 3D GLB car from the side into 2D body\n  and wheel sprites plus wheel positions (Kenney Car Kit, CC0)\n- Cars can now use sprites instead of code drawings; textures are\n  cached so they draw correctly in the GL Compatibility renderer\n- New Ambulance vehicle (800 coins) with flashing siren lights\n- Godot ignores the build/ folder; removed unsupported 2D MSAA setting\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/ambulance.json",
+   "add": 25,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/ambulance_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/ambulance_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/ambulance_wheel.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/ambulance_wheel.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "project.godot",
+   "add": 7,
+   "del": 8,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 41,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 14,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/kenney/License-Kenney-CarKit.txt",
+   "add": 28,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/Textures/colormap.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/Textures/colormap.png.import",
+   "add": 42,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/ambulance.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/ambulance.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/wheel-default.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/wheel-default.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/render_car.gd",
+   "add": 146,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/render_car.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

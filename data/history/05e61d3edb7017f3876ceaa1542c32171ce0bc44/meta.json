@@ -1,0 +1,26 @@
+{
+ "sha": "05e61d3edb7017f3876ceaa1542c32171ce0bc44",
+ "short": "05e61d3",
+ "parents": [
+  "ffc93aef5019d6aa49d6834bee30ecd38fa8d388"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:47:01+04:00",
+ "subject": "Workshop: preview parts before buying, confirm with BUY",
+ "body": "Tapping a part you don't own now only previews it on the car (stats\nupdate too) and opens a \"Buy <part> for N coins?\" bar with BUY and\nCancel. Coins are spent only on BUY; if you can't afford it the bar\nsays how many more coins you need. Owned parts still equip on tap.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 26,
+   "del": 10,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 62,
+   "del": 5,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

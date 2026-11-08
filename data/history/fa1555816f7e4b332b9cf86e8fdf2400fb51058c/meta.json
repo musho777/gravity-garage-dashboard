@@ -1,0 +1,26 @@
+{
+ "sha": "fa1555816f7e4b332b9cf86e8fdf2400fb51058c",
+ "short": "fa15558",
+ "parents": [
+  "d8de229fc597676e56c16508adc286f5c0e6fd62"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:20:50+04:00",
+ "subject": "Garage: car/planet info and BUY button in a fixed card under the big car",
+ "body": "The info panel and BUY button sat at the top of the scrolling list, so\nafter scrolling down and tapping a car nothing seemed to happen. They\nnow live in a card on the left, under the big car (or planet) in the\nbackground, and stay visible however far the list is scrolled. The\ntitle is one line and the background car sits higher to make room.\nThe lists are shorter too: all 9 planets fit without scrolling.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 21,
+   "del": 7,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

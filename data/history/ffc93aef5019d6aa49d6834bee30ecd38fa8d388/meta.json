@@ -1,0 +1,38 @@
+{
+ "sha": "ffc93aef5019d6aa49d6834bee30ecd38fa8d388",
+ "short": "ffc93ae",
+ "parents": [
+  "a8cc07b53aa061526d0a135b7d878afd91d5fc0b"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:42:16+04:00",
+ "subject": "Add Workshop: build your own car from bought parts",
+ "body": "- New Workshop screen (Build your car button in the garage): live\n  preview with spinning wheels, stat bars, and 6 part tabs\n- Parts: 4 bodies, 4 engines (incl. Rocket with flame), 4 wheel types,\n  11 paints, 6 decals (clipped to the body shape), 4 extras (spoiler,\n  siren, flag, chrome pipes); parts change speed, power, grip, weight\n  and air control\n- Buy once with coins, then equip freely; extras toggle on/off\n- The build appears in the garage as \"My Car\" and can be driven\n- Config and owned parts are saved per player\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 179,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 93,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 62,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 211,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

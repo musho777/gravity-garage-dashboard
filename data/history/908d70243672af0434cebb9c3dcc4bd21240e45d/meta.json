@@ -1,0 +1,32 @@
+{
+ "sha": "908d70243672af0434cebb9c3dcc4bd21240e45d",
+ "short": "908d702",
+ "parents": [
+  "02ab8335e5cf020c2d5a25faef6b3b413df40a14"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:46:56+04:00",
+ "subject": "Add 4 funny vehicles: Turbo Cart, Couch Cruiser, Bath Racer, Ice Cream Van",
+ "body": "Code-drawn, shareable-clip vehicles with their own traits:\n- Turbo Cart (900): shopping cart, wire basket, tiny wheels, big air\n- Couch Cruiser (1600): purple sofa with cushions and a floor lamp, grippy\n- Bath Racer (2200): bathtub with foam, faucet and rubber duck, bubble\n  trail when accelerating, extra air control\n- Ice Cream Van (2500): pink van with awning, sprinkles and a giant\n  cone on the roof, bigger fuel tank\ntools/car_gallery.gd renders vehicles side by side for quick checks.\n\n(This commit also contains the data for 3 new maps, which come with\ntheir drawing code in the next commit.)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 106,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 67,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "tools/car_gallery.gd",
+   "add": 50,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

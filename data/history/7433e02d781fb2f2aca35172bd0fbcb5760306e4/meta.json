@@ -1,0 +1,20 @@
+{
+ "sha": "7433e02d781fb2f2aca35172bd0fbcb5760306e4",
+ "short": "7433e02",
+ "parents": [
+  "c9e8f99ae03263cd40d62ae76ee8fc5aa17e4329"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:43:30+04:00",
+ "subject": "Pause menu: bigger buttons with more space between them",
+ "body": "Wider card with more padding, larger text, and taller, well-spaced\nbuttons (Resume 92 px, Restart/Garage 78 px with an 18 px gap, End run\n68 px) so they're easy to hit with a thumb on the phone.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 20,
+   "del": 13,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

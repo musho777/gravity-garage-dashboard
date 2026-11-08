@@ -1,0 +1,32 @@
+{
+ "sha": "9b8e8eb20be66f530982d12fe043a4a9f819ec06",
+ "short": "9b8e8eb",
+ "parents": [
+  "774103f246ff653a48b41ddb0aaa4360d5b70035"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:07:00+04:00",
+ "subject": "Per-car traits, stats and upgrades; view cars before buying",
+ "body": "- Every car has a unique trait (e.g. Fuel miser, Unstoppable, Air kart)\n  with its own speed/power/grip/air/fuel modifiers\n- Upgrades (engine, tires, shocks, fuel tank) are now per car; old\n  shared upgrade levels are copied to each owned car on first load\n- Upgrade prices scale with the car's price\n- Garage shows the selected car's name, trait and 5 stat bars\n- Tapping a car you don't own previews it (stats + parked in the\n  background) with a BUY / Cancel bar instead of buying instantly\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 67,
+   "del": 6,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 75,
+   "del": 17,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 88,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,32 @@
+{
+ "sha": "fab7bca77c80d58a3249938702128e69c0c41d51",
+ "short": "fab7bca",
+ "parents": [
+  "7433e02d781fb2f2aca35172bd0fbcb5760306e4"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:53:58+04:00",
+ "subject": "Garage: every car card shows a photo of the car with tires",
+ "body": "thumbs.gd draws all cars (body, tires, driver, and the player's paint,\ndecal and tire choice) into one off-screen picture, cuts it into one\ntexture per car and caches it; only cars whose look changed are redrawn.\nCode-drawn cars (Buggy, Monster Truck, Rocket Bike, funny vehicles,\nMy Car) now have pictures, and picture cars now show their wheels.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/thumbs.gd",
+   "add": 103,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/thumbs.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 17,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,26 @@
+{
+ "sha": "2cc96d7182d5cfee39065b7ab4447b6805cc86e6",
+ "short": "2cc96d7",
+ "parents": [
+  "d5be5119bf48eea7d7bc7ddb38131bde87a17a52"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:23:11+04:00",
+ "subject": "Garage: split into separate Planets and Cars parts",
+ "body": "PLANETS / CARS switch at the top of the garage panel. Planets shows the\nplanet info, picture tiles and the daily run; Cars shows the car info,\ncar grid, Build your car and that car's upgrades. Coins, music and sound\nstay at the top and DRIVE at the bottom.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 45,
+   "del": 11,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

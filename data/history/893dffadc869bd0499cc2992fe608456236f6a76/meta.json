@@ -1,0 +1,32 @@
+{
+ "sha": "893dffadc869bd0499cc2992fe608456236f6a76",
+ "short": "893dffa",
+ "parents": [
+  "fa1555816f7e4b332b9cf86e8fdf2400fb51058c"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:26:07+04:00",
+ "subject": "Add TUNE screen: per-car upgrades, paint and decals for every car",
+ "body": "- TUNE & UPGRADE button in the car card opens a screen with the car big\n  in a live preview, its stat bars, and 3 tabs: UPGRADES (moved here from\n  the car list), PAINT (Original + 11 colors) and DECALS (stripes,\n  number, stars, checker, flames)\n- Every car remembers its own paint and decal; shown in runs, the garage\n  background and the share picture. Picture cars get a color tint,\n  drawn cars are repainted; decals are clipped to each body's shape\n- Paints/decals are bought once and work on all cars (shared with the\n  Workshop); tapping one you don't own previews it with BUY / Cancel\n- The Workshop car's button opens the Workshop instead\n- Decal drawing shared by all cars (Workshop uses the same code)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 58,
+   "del": 37,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 97,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 267,
+   "del": 11,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

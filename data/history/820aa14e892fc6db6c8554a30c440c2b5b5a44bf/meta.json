@@ -1,0 +1,44 @@
+{
+ "sha": "820aa14e892fc6db6c8554a30c440c2b5b5a44bf",
+ "short": "820aa14",
+ "parents": [
+  "cca867325c74db064c2977cd70f1d42aaffca3a8"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:11:04+04:00",
+ "subject": "Add share card: result picture with save, WhatsApp, Telegram and copy",
+ "body": "- SHARE YOUR RESULT on the results screen draws a 1080x1350 picture\n  (Instagram 4:5): map background, the car big in the middle, distance,\n  car and map names, flips, air, coins, NEW BEST badge, \"Can you beat me?\"\n- Share panel with preview: Save picture (into the app folder, now\n  visible in the iPhone Files app), WhatsApp and Telegram (open the app\n  with the result text), Copy text\n- Native iOS share sheet / save to Photos need a plugin (noted for later)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "export_presets.cfg",
+   "add": 2,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 47,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/share_card.gd",
+   "add": 125,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/share_card.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 62,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

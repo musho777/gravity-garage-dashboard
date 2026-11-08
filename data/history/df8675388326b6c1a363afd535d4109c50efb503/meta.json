@@ -1,0 +1,26 @@
+{
+ "sha": "df8675388326b6c1a363afd535d4109c50efb503",
+ "short": "df86753",
+ "parents": [
+  "9488e36348c7a84346c8911c98603d94465ef85c"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T13:02:07+04:00",
+ "subject": "Workshop: 25 new items across all categories (58 total)",
+ "body": "- Bodies: Bug (round, sunroof), Jeep (open top, spare tire), Box Truck\n  (cargo box), Hot Rod (low, chrome pipes)\n- Engines: Turbo, Electric (no smoke, much lower fuel use), Jet\n  (turbine with blue flame, fastest)\n- Wheels: Drift (fast, slidey), Tractor (chevron treads), Spiky (best grip)\n- Paints: Mint, Lime, Sky, Navy, Cherry, Chrome (also in TUNE)\n- Decals: Lightning, Polka dots, Zigzag, Hearts, Wave (also in TUNE)\n- Extras: Roof rack, Antenna (wobbles), Bull horns, Tail fin (+10% air)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 143,
+   "del": 6,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 34,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

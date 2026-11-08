@@ -1,0 +1,20 @@
+{
+ "sha": "ce63c6d1943a12db89881821ee2c6a049f5de76d",
+ "short": "ce63c6d",
+ "parents": [
+  "2cc96d7182d5cfee39065b7ab4447b6805cc86e6"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:26:26+04:00",
+ "subject": "Fix touch scrolling in garage and workshop lists",
+ "body": "- Buttons pass touches through, so a swipe that starts on a car or part\n  scrolls the list instead of being swallowed by the button\n- A press only counts as a tap if the finger moved less than 14 px;\n  scrolling no longer selects the car under your finger\n- Movement is tracked per finger, so a second finger doesn't disturb it\n- Help and pause buttons get a multitouch area so they work with a\n  second finger while the first holds GAS\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 47,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,1524 @@
+{
+ "updated": "2026-11-08T22:47:35+04:00",
+ "commits": [
+  {
+   "sha": "8949945353605c64db28f9d166fdfb513aa482b6",
+   "short": "8949945",
+   "parents": [
+    "0930c2a684435fba3e43c9d329bc4c2545c20325"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T22:31:19+04:00",
+   "subject": "Road map: drawn red pennant flag for best distance",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "0930c2a684435fba3e43c9d329bc4c2545c20325",
+   "short": "0930c2a",
+   "parents": [
+    "aafc49b93296661ab45b0bb80164185b47b8a4ff"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T22:28:35+04:00",
+   "subject": "Road map in the HUD: hills line, fuel cans, best flag, you as a dot",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "aafc49b93296661ab45b0bb80164185b47b8a4ff",
+   "short": "aafc49b",
+   "parents": [
+    "ea9c7d136e42f852109fa5b3c347785c2bf03fd6"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T16:06:26+04:00",
+   "subject": "Production builds: test coins only in debug; deploy script release/fresh",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "ea9c7d136e42f852109fa5b3c347785c2bf03fd6",
+   "short": "ea9c7d1",
+   "parents": [
+    "df8675388326b6c1a363afd535d4109c50efb503"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T14:07:09+04:00",
+   "subject": "Make every map harder: jump ramps, steeper late hills, fuel pressure",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": [
+      "dust",
+      "jungle",
+      "moon",
+      "beach",
+      "city",
+      "ice",
+      "mars",
+      "volcano",
+      "candy"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "df8675388326b6c1a363afd535d4109c50efb503",
+   "short": "df86753",
+   "parents": [
+    "9488e36348c7a84346c8911c98603d94465ef85c"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T13:02:07+04:00",
+   "subject": "Workshop: 25 new items across all categories (58 total)",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [
+      "decal/lightning",
+      "decal/dots",
+      "decal/zigzag",
+      "decal/hearts",
+      "decal/wave",
+      "paint/mint",
+      "paint/lime",
+      "paint/sky",
+      "paint/navy",
+      "paint/cherry",
+      "paint/chrome",
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "extras/roofrack",
+      "extras/antenna",
+      "extras/horns",
+      "extras/fin",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "9488e36348c7a84346c8911c98603d94465ef85c",
+   "short": "9488e36",
+   "parents": [
+    "fab7bca77c80d58a3249938702128e69c0c41d51"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:55:20+04:00",
+   "subject": "Garage car grid: 3 bigger cards per row instead of 4",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "fab7bca77c80d58a3249938702128e69c0c41d51",
+   "short": "fab7bca",
+   "parents": [
+    "7433e02d781fb2f2aca35172bd0fbcb5760306e4"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:53:58+04:00",
+   "subject": "Garage: every car card shows a photo of the car with tires",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "7433e02d781fb2f2aca35172bd0fbcb5760306e4",
+   "short": "7433e02",
+   "parents": [
+    "c9e8f99ae03263cd40d62ae76ee8fc5aa17e4329"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:43:30+04:00",
+   "subject": "Pause menu: bigger buttons with more space between them",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "c9e8f99ae03263cd40d62ae76ee8fc5aa17e4329",
+   "short": "c9e8f99",
+   "parents": [
+    "893dffadc869bd0499cc2992fe608456236f6a76"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:30:46+04:00",
+   "subject": "Add TIRES tab to TUNE: 5 tire styles for every car",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [
+      "tires/stock",
+      "tires/whitewall",
+      "tires/racing",
+      "tires/offroad",
+      "tires/neon",
+      "tires/gold"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "893dffadc869bd0499cc2992fe608456236f6a76",
+   "short": "893dffa",
+   "parents": [
+    "fa1555816f7e4b332b9cf86e8fdf2400fb51058c"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:26:07+04:00",
+   "subject": "Add TUNE screen: per-car upgrades, paint and decals for every car",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "fa1555816f7e4b332b9cf86e8fdf2400fb51058c",
+   "short": "fa15558",
+   "parents": [
+    "d8de229fc597676e56c16508adc286f5c0e6fd62"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:20:50+04:00",
+   "subject": "Garage: car/planet info and BUY button in a fixed card under the big car",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "d8de229fc597676e56c16508adc286f5c0e6fd62",
+   "short": "d8de229",
+   "parents": [
+    "820aa14e892fc6db6c8554a30c440c2b5b5a44bf"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:15:53+04:00",
+   "subject": "Add crash replay clips: last 10 s in slow motion with a cinematic camera",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "820aa14e892fc6db6c8554a30c440c2b5b5a44bf",
+   "short": "820aa14",
+   "parents": [
+    "cca867325c74db064c2977cd70f1d42aaffca3a8"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:11:04+04:00",
+   "subject": "Add share card: result picture with save, WhatsApp, Telegram and copy",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "cca867325c74db064c2977cd70f1d42aaffca3a8",
+   "short": "cca8673",
+   "parents": [
+    "2f0907ecd7e09a896666e54ea0c868d91bcfd334"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:05:41+04:00",
+   "subject": "Add daily streak, daily missions, share result, next-goal and tutorial skip",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "2f0907ecd7e09a896666e54ea0c868d91bcfd334",
+   "short": "2f0907e",
+   "parents": [
+    "0c18b8717d4e9f9e6e1caf73f6b66beb5db06340"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T12:01:34+04:00",
+   "subject": "First-launch TAP TO DRIVE, 3-step tutorial, coin icon, flying coins, record celebrations",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "0c18b8717d4e9f9e6e1caf73f6b66beb5db06340",
+   "short": "0c18b87",
+   "parents": [
+    "e43c7d54df25fbface50b2c9c2e5141c44e6aceb"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:48:33+04:00",
+   "subject": "Add viral plan and design review (docs/VIRAL_PLAN.md); sea horizon fix",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "e43c7d54df25fbface50b2c9c2e5141c44e6aceb",
+   "short": "e43c7d5",
+   "parents": [
+    "908d70243672af0434cebb9c3dcc4bd21240e45d"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:46:56+04:00",
+   "subject": "Add 3 maps: Sunny Beach, Red Mars, Candy Land",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "beach",
+      "mars",
+      "candy"
+     ],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "908d70243672af0434cebb9c3dcc4bd21240e45d",
+   "short": "908d702",
+   "parents": [
+    "02ab8335e5cf020c2d5a25faef6b3b413df40a14"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:46:56+04:00",
+   "subject": "Add 4 funny vehicles: Turbo Cart, Couch Cruiser, Bath Racer, Ice Cream Van",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "cart",
+      "sofa",
+      "bathtub",
+      "icecream"
+     ],
+     "removed": [],
+     "look": [
+      "custom",
+      "buggy",
+      "ambulance",
+      "rocket",
+      "garbage-truck",
+      "police",
+      "suv",
+      "tractor",
+      "tractor-shovel",
+      "truck-flat"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [
+      "beach",
+      "mars",
+      "candy"
+     ],
+     "removed": [],
+     "look": [
+      "jungle",
+      "moon",
+      "city",
+      "ice",
+      "volcano"
+     ],
+     "stats": [
+      "volcano"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "02ab8335e5cf020c2d5a25faef6b3b413df40a14",
+   "short": "02ab833",
+   "parents": [
+    "d1378d5fb9e560797cb22ad6b633c3f6a2f3c3f4"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:36:06+04:00",
+   "subject": "Fix on-screen shaking at speed: physics interpolation, physics-rate camera",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 6
+   }
+  },
+  {
+   "sha": "d1378d5fb9e560797cb22ad6b633c3f6a2f3c3f4",
+   "short": "d1378d5",
+   "parents": [
+    "5219f53a158c3808dd6f24a95b136b0eb6ca0c9f"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:23:57+04:00",
+   "subject": "Stop cars vibrating: tuned spring damping, 120 Hz physics",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 6
+   }
+  },
+  {
+   "sha": "5219f53a158c3808dd6f24a95b136b0eb6ca0c9f",
+   "short": "5219f53",
+   "parents": [
+    "ce63c6d1943a12db89881821ee2c6a049f5de76d"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T01:14:16+04:00",
+   "subject": "Add 3 maps (Jungle Hills, Neon City, Volcano Ridge); make runs harder",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [
+      "jungle",
+      "city",
+      "volcano"
+     ],
+     "removed": [],
+     "look": [
+      "dust",
+      "moon",
+      "ice"
+     ],
+     "stats": [
+      "dust",
+      "moon",
+      "ice"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 6
+   }
+  },
+  {
+   "sha": "ce63c6d1943a12db89881821ee2c6a049f5de76d",
+   "short": "ce63c6d",
+   "parents": [
+    "2cc96d7182d5cfee39065b7ab4447b6805cc86e6"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:26:26+04:00",
+   "subject": "Fix touch scrolling in garage and workshop lists",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "2cc96d7182d5cfee39065b7ab4447b6805cc86e6",
+   "short": "2cc96d7",
+   "parents": [
+    "d5be5119bf48eea7d7bc7ddb38131bde87a17a52"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:23:11+04:00",
+   "subject": "Garage: split into separate Planets and Cars parts",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "d5be5119bf48eea7d7bc7ddb38131bde87a17a52",
+   "short": "d5be511",
+   "parents": [
+    "ee0872ab5f1a94fea89368a5618cc05d2a8f4ca0"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:19:59+04:00",
+   "subject": "Planets: picture tiles, info panel, view before unlocking",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "dust",
+      "moon",
+      "ice"
+     ],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "ee0872ab5f1a94fea89368a5618cc05d2a8f4ca0",
+   "short": "ee0872a",
+   "parents": [
+    "9241f83900db547b518a946920bf17ef4c1abcb7"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:17:34+04:00",
+   "subject": "Remove the tagline from the main menu",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "9241f83900db547b518a946920bf17ef4c1abcb7",
+   "short": "9241f83",
+   "parents": [
+    "1c0f575f0314ee7b79709c66ea23cb3d80be1431"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:16:06+04:00",
+   "subject": "Remove the how-to-play text from the main menu",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "1c0f575f0314ee7b79709c66ea23cb3d80be1431",
+   "short": "1c0f575",
+   "parents": [
+    "9b8e8eb20be66f530982d12fe043a4a9f819ec06"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:12:47+04:00",
+   "subject": "Fix suspension: wheels sat fully pushed up into the body",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": [
+      "custom",
+      "buggy",
+      "ambulance",
+      "monster",
+      "rocket",
+      "delivery",
+      "delivery-flat",
+      "firetruck",
+      "garbage-truck",
+      "hatchback-sports",
+      "kart-oobi",
+      "kart-oodi",
+      "kart-ooli",
+      "kart-oopi",
+      "kart-oozi",
+      "police",
+      "race",
+      "race-future",
+      "sedan",
+      "sedan-sports",
+      "suv",
+      "suv-luxury",
+      "taxi",
+      "tractor",
+      "tractor-police",
+      "tractor-shovel",
+      "truck",
+      "truck-flat",
+      "van"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "9b8e8eb20be66f530982d12fe043a4a9f819ec06",
+   "short": "9b8e8eb",
+   "parents": [
+    "774103f246ff653a48b41ddb0aaa4360d5b70035"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T00:07:00+04:00",
+   "subject": "Per-car traits, stats and upgrades; view cars before buying",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": [
+      "custom",
+      "buggy",
+      "ambulance",
+      "monster",
+      "rocket",
+      "delivery",
+      "delivery-flat",
+      "firetruck",
+      "garbage-truck",
+      "hatchback-sports",
+      "kart-oobi",
+      "kart-oodi",
+      "kart-ooli",
+      "kart-oopi",
+      "kart-oozi",
+      "police",
+      "race",
+      "race-future",
+      "sedan",
+      "sedan-sports",
+      "suv",
+      "suv-luxury",
+      "taxi",
+      "tractor",
+      "tractor-police",
+      "tractor-shovel",
+      "truck",
+      "truck-flat",
+      "van"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "774103f246ff653a48b41ddb0aaa4360d5b70035",
+   "short": "774103f",
+   "parents": [
+    "05e61d3edb7017f3876ceaa1542c32171ce0bc44"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:57:30+04:00",
+   "subject": "Add paid roadside help: push over hills and fuel delivery",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "05e61d3edb7017f3876ceaa1542c32171ce0bc44",
+   "short": "05e61d3",
+   "parents": [
+    "ffc93aef5019d6aa49d6834bee30ecd38fa8d388"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:47:01+04:00",
+   "subject": "Workshop: preview parts before buying, confirm with BUY",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "ffc93aef5019d6aa49d6834bee30ecd38fa8d388",
+   "short": "ffc93ae",
+   "parents": [
+    "a8cc07b53aa061526d0a135b7d878afd91d5fc0b"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:42:16+04:00",
+   "subject": "Add Workshop: build your own car from bought parts",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "custom"
+     ],
+     "removed": [],
+     "look": [
+      "buggy",
+      "monster",
+      "rocket",
+      "suv"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [
+      "decal/none",
+      "decal/stripes",
+      "decal/number",
+      "decal/stars",
+      "decal/checker",
+      "decal/flames",
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup",
+      "extras/spoiler",
+      "extras/siren",
+      "extras/flag",
+      "extras/pipes",
+      "paint/teal",
+      "paint/red",
+      "paint/orange",
+      "paint/yellow",
+      "paint/green",
+      "paint/blue",
+      "paint/purple",
+      "paint/pink",
+      "paint/black",
+      "paint/white",
+      "paint/gold",
+      "engine/stock",
+      "engine/v6",
+      "engine/v8",
+      "engine/rocket",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "a8cc07b53aa061526d0a135b7d878afd91d5fc0b",
+   "short": "a8cc07b",
+   "parents": [
+    "de383a69842d0d7b64287f18078ea4d3e2356800"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:16:34+04:00",
+   "subject": "Add synthesized music, engine sound and sound effects",
+   "files": 27,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 28,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "de383a69842d0d7b64287f18078ea4d3e2356800",
+   "short": "de383a6",
+   "parents": [
+    "a12d4b37fbf225288b65e6db8207913753f9eb5c"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:12:58+04:00",
+   "subject": "Add pause button and pause menu",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 28,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "a12d4b37fbf225288b65e6db8207913753f9eb5c",
+   "short": "a12d4b3",
+   "parents": [
+    "e967f78755321f34f4f58fa7374f30eff85526d5"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T23:08:01+04:00",
+   "subject": "Add 24 Kenney Car Kit vehicles, car picture grid, and test coins",
+   "files": 201,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "delivery",
+      "delivery-flat",
+      "firetruck",
+      "garbage-truck",
+      "hatchback-sports",
+      "kart-oobi",
+      "kart-oodi",
+      "kart-ooli",
+      "kart-oopi",
+      "kart-oozi",
+      "police",
+      "race",
+      "race-future",
+      "sedan",
+      "sedan-sports",
+      "suv",
+      "suv-luxury",
+      "taxi",
+      "tractor",
+      "tractor-police",
+      "tractor-shovel",
+      "truck",
+      "truck-flat",
+      "van"
+     ],
+     "removed": [],
+     "look": [
+      "buggy",
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 28,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "e967f78755321f34f4f58fa7374f30eff85526d5",
+   "short": "e967f78",
+   "parents": [
+    "0372c4dcb8cbd78722c86655a01053cdc887d83d"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-07T22:54:01+04:00",
+   "subject": "Add Ambulance car from Kenney Car Kit with picture-based car support",
+   "files": 18,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "ambulance"
+     ],
+     "removed": [],
+     "look": [
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 4,
+    "maps": 3
+   }
+  },
+  {
+   "sha": "0372c4dcb8cbd78722c86655a01053cdc887d83d",
+   "short": "0372c4d",
+   "parents": [],
+   "author": "musho7-dev",
+   "date": "2026-11-07T22:33:13+04:00",
+   "subject": "Add Gravity Garage Godot 4 game for iPhone",
+   "files": 29,
+   "export_ok": true,
+   "has_parent_snapshot": false,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 3,
+    "maps": 3
+   }
+  }
+ ],
+ "pushes": []
+}

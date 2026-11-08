@@ -1,0 +1,26 @@
+{
+ "sha": "1c0f575f0314ee7b79709c66ea23cb3d80be1431",
+ "short": "1c0f575",
+ "parents": [
+  "9b8e8eb20be66f530982d12fe043a4a9f819ec06"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:12:47+04:00",
+ "subject": "Fix suspension: wheels sat fully pushed up into the body",
+ "body": "Springs were far too soft, so every car rested with its wheels at the\ntop of their travel (100% sag): bodies sat on the tires and wheels\nlooked sunk into the arches. Spring stiffness is now computed from the\ncar's weight and the planet's gravity and pre-loaded, so at rest the\nwheels sit where the art expects (0-1 px off) with travel left for\nbumps. Shocks upgrade now stiffens springs by 6% per level.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 7,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

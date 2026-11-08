@@ -1,0 +1,20 @@
+{
+ "sha": "9488e36348c7a84346c8911c98603d94465ef85c",
+ "short": "9488e36",
+ "parents": [
+  "fab7bca77c80d58a3249938702128e69c0c41d51"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:55:20+04:00",
+ "subject": "Garage car grid: 3 bigger cards per row instead of 4",
+ "body": "Cards 160x140 with 140 px car photos and larger text.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

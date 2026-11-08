@@ -1,0 +1,38 @@
+{
+ "sha": "d1378d5fb9e560797cb22ad6b633c3f6a2f3c3f4",
+ "short": "d1378d5",
+ "parents": [
+  "5219f53a158c3808dd6f24a95b136b0eb6ca0c9f"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:23:57+04:00",
+ "subject": "Stop cars vibrating: tuned spring damping, 120 Hz physics",
+ "body": "The stiffer weight-based springs from the suspension fix bounced on the\nlight wheels, so cars trembled (worst on heavy trucks and karts).\nMeasured parked shaking for 8 cars over a grid of spring settings\n(tools/shake_test.gd) and picked damping 4.0 for all springs: total\nshaking dropped from 5.8 to 0.3 while wheels still sit in the arches.\nPhysics now runs at 120 Hz to match the iPhone's 120 Hz screen, so\nmotion is smoother. Difficulty unchanged (no-upgrade cars still end\naround 500 m out of fuel).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "project.godot",
+   "add": 5,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 5,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "tools/shake_test.gd",
+   "add": 48,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/shake_test.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

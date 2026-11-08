@@ -1,0 +1,44 @@
+{
+ "sha": "cca867325c74db064c2977cd70f1d42aaffca3a8",
+ "short": "cca8673",
+ "parents": [
+  "2f0907ecd7e09a896666e54ea0c868d91bcfd334"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:05:41+04:00",
+ "subject": "Add daily streak, daily missions, share result, next-goal and tutorial skip",
+ "body": "Based on research into retention and virality (sources in\ndocs/VIRAL_PLAN.md):\n- Daily login streak: day 1..7 rewards 50 -> 1000 coins, resets if a day\n  is missed (loss aversion brings players back)\n- 3 daily missions per date (easy/medium/hard: distance, flips, coins,\n  air, runs) with progress bars and CLAIM buttons in a new DAILY tab;\n  the tab shows how many rewards are ready\n- Results screen: \"Only N coins to unlock X!\" next goal, and COPY RESULT\n  TO SHARE (Wordle-style text with car, map, distance, flips, air)\n- Skip tutorial button for experienced players\n- Self-test mode \"daily\" for the new tab\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "docs/VIRAL_PLAN.md",
+   "add": 30,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 130,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/missions.gd",
+   "add": 50,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/missions.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 122,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

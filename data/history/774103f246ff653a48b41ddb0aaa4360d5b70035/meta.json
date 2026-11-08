@@ -1,0 +1,38 @@
+{
+ "sha": "774103f246ff653a48b41ddb0aaa4360d5b70035",
+ "short": "774103f",
+ "parents": [
+  "05e61d3edb7017f3876ceaa1542c32171ce0bc44"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:57:30+04:00",
+ "subject": "Add paid roadside help: push over hills and fuel delivery",
+ "body": "- Stuck on a hill (gas held, not moving or rolling back for 1.5 s):\n  \"CALL HELP\" button; a tractor drives in from behind and pushes the\n  car up the slope for ~3 s while keeping it upright\n- Out of fuel: \"FUEL DELIVERY\" button with a 6 s countdown; the helper\n  refills the tank, otherwise the run ends as before\n- Paid with coins (run coins first, then bank); price doubles with each\n  use in a run (push 150/300/600, fuel 100/200/400)\n- Fix: running dry in a valley no longer rolls back and forth forever;\n  \"not getting further\" now counts as stopped\n- Self-test exercises push and fuel delivery\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/helper.gd",
+   "add": 100,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/helper.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 128,
+   "del": 8,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 26,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

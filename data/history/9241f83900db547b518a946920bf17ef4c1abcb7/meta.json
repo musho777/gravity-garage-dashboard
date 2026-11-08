@@ -1,0 +1,20 @@
+{
+ "sha": "9241f83900db547b518a946920bf17ef4c1abcb7",
+ "short": "9241f83",
+ "parents": [
+  "1c0f575f0314ee7b79709c66ea23cb3d80be1431"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:16:06+04:00",
+ "subject": "Remove the how-to-play text from the main menu",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 0,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

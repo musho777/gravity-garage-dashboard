@@ -1,0 +1,20 @@
+{
+ "sha": "ee0872ab5f1a94fea89368a5618cc05d2a8f4ca0",
+ "short": "ee0872a",
+ "parents": [
+  "9241f83900db547b518a946920bf17ef4c1abcb7"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:17:34+04:00",
+ "subject": "Remove the tagline from the main menu",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 0,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

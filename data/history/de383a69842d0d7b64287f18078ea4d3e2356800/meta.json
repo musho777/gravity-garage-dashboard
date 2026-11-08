@@ -1,0 +1,26 @@
+{
+ "sha": "de383a69842d0d7b64287f18078ea4d3e2356800",
+ "short": "de383a6",
+ "parents": [
+  "a12d4b37fbf225288b65e6db8207913753f9eb5c"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:12:58+04:00",
+ "subject": "Add pause button and pause menu",
+ "body": "- Pause button (top right of HUD) freezes the game and opens a menu:\n  Resume, Restart, Garage, End run and see results\n- Restart and Garage keep the coins and best distance from the run\n- Auto-pauses on iPhone when the app loses focus (call, home button)\n- Esc or P toggles pause on keyboard\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 56,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 77,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

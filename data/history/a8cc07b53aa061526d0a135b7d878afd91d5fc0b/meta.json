@@ -1,0 +1,176 @@
+{
+ "sha": "a8cc07b53aa061526d0a135b7d878afd91d5fc0b",
+ "short": "a8cc07b",
+ "parents": [
+  "de383a69842d0d7b64287f18078ea4d3e2356800"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:16:34+04:00",
+ "subject": "Add synthesized music, engine sound and sound effects",
+ "body": "- tools/make_audio.py synthesizes all audio in pure Python (original,\n  no samples): 34 s looping A-minor chiptune track, 1 s seamless engine\n  loop, and effects for coin, fuel, flip, big air, landing, crash,\n  new best, purchase and button taps\n- scripts/audio.gd plays music, a speed-pitched engine loop and pooled\n  one-shot effects; keeps running and dims music while paused\n- Music on/off and Sound on/off buttons in the garage, saved per player\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/audio/air.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/air.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/best.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/best.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/buy.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/buy.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/click.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/click.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/coin.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/coin.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/crash.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/crash.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/engine.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/engine.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/flip.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/flip.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/fuel.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/fuel.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/land.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/land.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/music.wav",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/audio/music.wav.import",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/audio.gd",
+   "add": 92,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/audio.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 41,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 11,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "tools/make_audio.py",
+   "add": 230,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

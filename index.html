@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garage Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;500;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">Gravity Garage</span>
+    <span class="sub">Dashboard</span>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="cars" aria-selected="true">Cars <span class="count" id="n-cars"></span></button>
+    <button role="tab" data-tab="maps">Maps <span class="count" id="n-maps"></span></button>
+    <button role="tab" data-tab="history">History <span class="count" id="n-hist"></span></button>
+  </nav>
+  <div class="meta" id="meta"></div>
+</header>
+
+<main>
+  <section id="tab-cars" class="tab">
+    <div class="toolbar">
+      <input type="search" id="car-q" placeholder="Search cars…" autocomplete="off">
+      <select id="car-sort">
+        <option value="order">Garage order</option>
+        <option value="cost">Price</option>
+        <option value="speed">Top speed</option>
+        <option value="power">Power</option>
+        <option value="grip">Grip</option>
+        <option value="air">Air control</option>
+        <option value="mass">Weight</option>
+        <option value="name">Name</option>
+      </select>
+      <div class="chips" id="car-kinds"></div>
+    </div>
+    <div class="grid cars" id="cars"></div>
+  </section>
+
+  <section id="tab-maps" class="tab" hidden>
+    <div class="grid maps" id="maps"></div>
+  </section>
+
+  <section id="tab-history" class="tab" hidden>
+    <div class="toolbar">
+      <input type="search" id="hist-q" placeholder="Search commits…" autocomplete="off">
+      <label class="check"><input type="checkbox" id="hist-visual"> Only commits that changed cars or maps</label>
+    </div>
+    <div id="history"></div>
+  </section>
+</main>
+
+<dialog id="modal">
+  <button class="close" aria-label="Close" data-close>&times;</button>
+  <div id="modal-body"></div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+ "sha": "aafc49b93296661ab45b0bb80164185b47b8a4ff",
+ "short": "aafc49b",
+ "parents": [
+  "ea9c7d136e42f852109fa5b3c347785c2bf03fd6"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T16:06:26+04:00",
+ "subject": "Production builds: test coins only in debug; deploy script release/fresh",
+ "body": "- TEST_MODE now follows the build type (OS.is_debug_build()): debug\n  builds and Mac self-tests still top up to 1,000,000 coins, release\n  builds never do, so the production version can't ship with free coins\n- deploy-iphone.sh: \"release\" makes an optimized production build,\n  \"fresh\" removes the old app and its save first\n- Self-test \"smart\" driver kept for measuring difficulty\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "deploy-iphone.sh",
+   "add": 28,
+   "del": 8,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 4,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

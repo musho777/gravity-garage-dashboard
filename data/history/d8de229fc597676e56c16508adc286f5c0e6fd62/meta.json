@@ -1,0 +1,32 @@
+{
+ "sha": "d8de229fc597676e56c16508adc286f5c0e6fd62",
+ "short": "d8de229",
+ "parents": [
+  "820aa14e892fc6db6c8554a30c440c2b5b5a44bf"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:15:53+04:00",
+ "subject": "Add crash replay clips: last 10 s in slow motion with a cinematic camera",
+ "body": "- Records car, wheels, driver and debris poses at 60 per second for the\n  last 10 seconds of a run\n- WATCH REPLAY on the results screen plays it back: normal speed, then\n  25% slow motion for 1.5 s around the crash (or the end), close camera\n  that zooms in during slow motion\n- Movie look: black bars, blinking REPLAY dot, GRAVITY GARAGE watermark\n  so recorded clips advertise the game, Screen Recording tip, Skip\n- Terrain is kept 220 m behind the car so the replay has ground\n- Saving the clip as a video file needs a ReplayKit plugin (later)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 46,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 97,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 67,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

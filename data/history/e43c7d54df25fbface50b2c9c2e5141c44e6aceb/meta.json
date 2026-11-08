@@ -1,0 +1,32 @@
+{
+ "sha": "e43c7d54df25fbface50b2c9c2e5141c44e6aceb",
+ "short": "e43c7d5",
+ "parents": [
+  "908d70243672af0434cebb9c3dcc4bd21240e45d"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:46:56+04:00",
+ "subject": "Add 3 maps: Sunny Beach, Red Mars, Candy Land",
+ "body": "- Sunny Beach (450, 2x coins): sea horizon, golden sand, palm trees\n  with coconuts; sand is a little slippery\n- Red Mars (1100, 3x): light gravity (600), starry red sky with a\n  ringed planet, rocks (no lava)\n- Candy Land (2000, 4x): frosting, cream and chocolate layers, giant\n  lollipops and gumdrops\n- Garage picture tiles for each; 9 maps total\n- Lava specks now only on Volcano Ridge\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/backdrop.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 15,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 52,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

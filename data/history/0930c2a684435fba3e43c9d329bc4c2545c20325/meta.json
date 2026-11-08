@@ -1,0 +1,38 @@
+{
+ "sha": "0930c2a684435fba3e43c9d329bc4c2545c20325",
+ "short": "0930c2a",
+ "parents": [
+  "aafc49b93296661ab45b0bb80164185b47b8a4ff"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:28:35+04:00",
+ "subject": "Road map in the HUD: hills line, fuel cans, best flag, you as a dot",
+ "body": "Fuel bar (with can icon) and coins moved to the left under the distance.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/fuel_icon.gd",
+   "add": 18,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 14,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 118,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 39,
+   "del": 23,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

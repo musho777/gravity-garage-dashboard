@@ -1,0 +1,186 @@
+{
+ "sha": "0372c4dcb8cbd78722c86655a01053cdc887d83d",
+ "short": "0372c4d",
+ "parents": [],
+ "author": "musho7-dev",
+ "date": "2026-11-07T22:33:13+04:00",
+ "subject": "Add Gravity Garage Godot 4 game for iPhone",
+ "body": "Physics driving game built in Godot 4.7: endless procedural terrain,\n3 planets (Dust Mesa, Moon Quarry, Glacier Run), 3 vehicles with\ngroove/spring suspension, upgrades, fuel and coins, flip bonuses,\nbreak-apart crashes with a ragdoll driver, daily seeded run, and a\nnotch-safe touch HUD with gas/brake pedals.\n\nIncludes the iOS export preset, a deploy-iphone.sh script that\nexports, signs, installs and launches on a connected iPhone, and the\noriginal HTML web prototype.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": ".gitignore",
+   "add": 11,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/fonts/Bungee-Regular.ttf",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/fonts/Bungee-Regular.ttf.import",
+   "add": 36,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/fonts/OFL-Bungee.txt",
+   "add": 93,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/fonts/Rubik.ttf",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/fonts/Rubik.ttf.import",
+   "add": 36,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "deploy-iphone.sh",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "export_presets.cfg",
+   "add": 26,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "gravity-garage.html",
+   "add": 868,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "icon.svg",
+   "add": 17,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "icon.svg.import",
+   "add": 43,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "main.tscn",
+   "add": 6,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "project.godot",
+   "add": 39,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/backdrop.gd",
+   "add": 59,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/backdrop.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 212,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 140,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car_art.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 104,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/data.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/fx.gd",
+   "add": 97,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/fx.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 483,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 136,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/terrain.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 529,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

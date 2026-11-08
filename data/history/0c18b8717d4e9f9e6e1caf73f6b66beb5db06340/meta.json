@@ -1,0 +1,26 @@
+{
+ "sha": "0c18b8717d4e9f9e6e1caf73f6b66beb5db06340",
+ "short": "0c18b87",
+ "parents": [
+  "e43c7d54df25fbface50b2c9c2e5141c44e6aceb"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:48:33+04:00",
+ "subject": "Add viral plan and design review (docs/VIRAL_PLAN.md); sea horizon fix",
+ "body": "Overnight analysis: what's strong, what's missing for sharing and\nretention, a prioritized viral feature plan, design review of first-run,\nHUD, results screen and garage, monetization and launch checklist, and\nideas for more vehicles, maps and modes. Also raises the Sunny Beach sea\nso it reads as a horizon.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "docs/VIRAL_PLAN.md",
+   "add": 121,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/car_gallery.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

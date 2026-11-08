@@ -1,0 +1,44 @@
+{
+ "sha": "5219f53a158c3808dd6f24a95b136b0eb6ca0c9f",
+ "short": "5219f53",
+ "parents": [
+  "ce63c6d1943a12db89881821ee2c6a049f5de76d"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:14:16+04:00",
+ "subject": "Add 3 maps (Jungle Hills, Neon City, Volcano Ridge); make runs harder",
+ "body": "Maps:\n- Jungle Hills (300): green hills with trees along the road\n- Neon City (600): night skyline with lit windows and antennas, asphalt\n  road with yellow lane dashes and street lamps; smooth and grippy\n- Volcano Ridge (1500): red sky, sharp peaks, rocks, glowing lava layer\n- Garage picture tiles for each; daily run picks from all 6 maps\n\nDifficulty (it had become too easy after the suspension fix):\n- Hills keep growing after 200 m, up to 1.8x by about 650 m\n- Fuel cans get rarer the further you drive\n- Upgrades a little weaker per level (engine, tires, shocks, tank)\n- Measured with full-gas self-test: no-upgrade cars now end around\n  510 m (out of fuel); fast maxed cars need careful driving\n\nSelf-test: help/pause checks only with \"helptest\"; \"noupg\"/\"maxupg\"\nset the car's upgrades; runs up to 75 s.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/backdrop.gd",
+   "add": 38,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 31,
+   "del": 7,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 14,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 26,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 67,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

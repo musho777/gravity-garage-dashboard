@@ -1,0 +1,26 @@
+{
+ "sha": "ea9c7d136e42f852109fa5b3c347785c2bf03fd6",
+ "short": "ea9c7d1",
+ "parents": [
+  "df8675388326b6c1a363afd535d4109c50efb503"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T14:07:09+04:00",
+ "subject": "Make every map harder: jump ramps, steeper late hills, fuel pressure",
+ "body": "Measured with a new \"smart\" self-test driver that drives like a decent\nplayer (keeps the car level in the air, eases off on wheelies relative\nto the slope). Before: a skilled run with a maxed Buggy on Dust Mesa\nwas still going at 1,763 m.\n\n- Jump ramps from ~100 m, every 110 m, ending in a short cliff; they\n  grow from 3.5 m to 9 m high, so air control decides the landing\n- Hills grow faster after 150 m and keep growing to 2.4x\n- Fuel burns faster with distance (+33% at 1 km); cans spaced\n  210 m + 30 m per can\n\nAfter: careless driving crashes on a ramp (~240 m); skilled runs end\naround 500 m with no upgrades and 500-900 m with maxed cars, mostly\nout of fuel, so tank upgrades, fuel cans and fuel delivery matter.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 37,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 25,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

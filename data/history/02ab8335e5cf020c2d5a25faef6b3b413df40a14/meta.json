@@ -1,0 +1,26 @@
+{
+ "sha": "02ab8335e5cf020c2d5a25faef6b3b413df40a14",
+ "short": "02ab833",
+ "parents": [
+  "d1378d5fb9e560797cb22ad6b633c3f6a2f3c3f4"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T01:36:06+04:00",
+ "subject": "Fix on-screen shaking at speed: physics interpolation, physics-rate camera",
+ "body": "The car itself moved smoothly (0.03 px jerk per physics step), but on\nscreen it jiggled 1-2 px every frame: physics steps and screen frames\ndidn't line up (some frames got 2 steps, some 0) while the camera moved\nper frame, and the camera's zoom and look-ahead followed the raw,\nbump-noisy speed.\n\n- Enable 2D physics interpolation so bodies are drawn between steps\n- Camera follows in the physics step, together with the car\n- Camera zoom and look-ahead use a smoothed speed\n- Self-test measures on-screen jiggle; it dropped from 1.0-1.9 to\n  0.04-0.2 px/frame, including the fastest maxed car on Neon City\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "project.godot",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 57,
+   "del": 7,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

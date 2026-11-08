@@ -1,0 +1,32 @@
+{
+ "sha": "8949945353605c64db28f9d166fdfb513aa482b6",
+ "short": "8949945",
+ "parents": [
+  "0930c2a684435fba3e43c9d329bc4c2545c20325"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:31:19+04:00",
+ "subject": "Road map: drawn red pennant flag for best distance",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/fuel_icon.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 28,
+   "del": 10,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

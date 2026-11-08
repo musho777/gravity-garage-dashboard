@@ -1,0 +1,38 @@
+{
+ "sha": "2f0907ecd7e09a896666e54ea0c868d91bcfd334",
+ "short": "2f0907e",
+ "parents": [
+  "0c18b8717d4e9f9e6e1caf73f6b66beb5db06340"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T12:01:34+04:00",
+ "subject": "First-launch TAP TO DRIVE, 3-step tutorial, coin icon, flying coins, record celebrations",
+ "body": "- Brand-new players see only the title and a big pulsing TAP TO DRIVE\n  (Buggy on Dust Mesa); the garage opens after the first run\n- First-run tutorial tips that never block the screen: \"Hold GAS to\n  drive\" (GAS pedal pulses), \"In the air: GAS leans back, BRAKE leans\n  forward\" on the first jump (both pedals pulse), \"Never land on your\n  head!\"; shown once\n- Gold coin icon (drawn in code) replaces \"c\" in the HUD, upgrade\n  prices and the roadside-help button\n- Collected coins fly to the HUD counter, which pops\n- Passing your best mid-run: NEW RECORD! popup, fanfare, confetti and\n  haptics; results screen counts distance and coins up, bounces the\n  NEW BEST badge and throws confetti\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/confetti.gd",
+   "add": 43,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/confetti.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 72,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 176,
+   "del": 7,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

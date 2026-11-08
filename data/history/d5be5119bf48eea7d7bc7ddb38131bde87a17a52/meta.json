@@ -1,0 +1,38 @@
+{
+ "sha": "d5be5119bf48eea7d7bc7ddb38131bde87a17a52",
+ "short": "d5be511",
+ "parents": [
+  "ee0872ab5f1a94fea89368a5618cc05d2a8f4ca0"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T00:19:59+04:00",
+ "subject": "Planets: picture tiles, info panel, view before unlocking",
+ "body": "- Planet tiles show a small drawn picture of each planet (sky, sun or\n  ringed planet with stars, ridge, ground layers), padlock when locked\n- Info panel for the shown planet: name, description, and bars for\n  gravity, grip, hills and coin bonus\n- Tapping a locked planet previews it (background switches to that\n  planet) with an \"Unlock ... for N coins?\" BUY / Cancel bar instead\n  of unlocking instantly\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 47,
+   "del": 11,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 61,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/planet_thumb.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 105,
+   "del": 6,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

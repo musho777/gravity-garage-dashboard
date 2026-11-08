@@ -1,0 +1,1220 @@
+{
+ "sha": "a12d4b37fbf225288b65e6db8207913753f9eb5c",
+ "short": "a12d4b3",
+ "parents": [
+  "e967f78755321f34f4f58fa7374f30eff85526d5"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-07T23:08:01+04:00",
+ "subject": "Add 24 Kenney Car Kit vehicles, car picture grid, and test coins",
+ "body": "- tools/render_kit.gd batch-renders kit vehicles into body + front/back\n  wheel sprites and a collision hull (assets/cars/kit, CC0 by Kenney)\n- Vehicles load from kit.json with stats by type (karts, sports, everyday,\n  trucks, tractors); different front/back wheel sizes supported\n- Garage shows vehicles as a 4-column grid with thumbnails\n- Body hull is clipped above the wheels so low cars ride on their tires\n- Crash signal deferred out of the physics callback\n- TEST_MODE in main.gd tops up to 1,000,000 coins (turn off before release)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/kit/delivery-flat_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/kit.json",
+   "add": 1766,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_body.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_body.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "export_presets.cfg",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 18,
+   "del": 7,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 3,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 72,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 8,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 15,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "tools/kenney/delivery-flat.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/delivery-flat.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/delivery.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/delivery.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/firetruck.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/firetruck.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/garbage-truck.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/garbage-truck.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/hatchback-sports.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/hatchback-sports.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oobi.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oobi.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oodi.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oodi.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-ooli.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-ooli.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oopi.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oopi.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oozi.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/kart-oozi.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/police.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/police.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/race-future.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/race-future.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/race.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/race.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/sedan-sports.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/sedan-sports.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/sedan.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/sedan.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/suv-luxury.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/suv-luxury.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/suv.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/suv.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/taxi.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/taxi.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor-police.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor-police.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor-shovel.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor-shovel.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/tractor.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/truck-flat.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/truck-flat.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/truck.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/truck.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/van.glb",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/kenney/van.glb.import",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/render_kit.gd",
+   "add": 160,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/render_kit.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}
