@@ -1,0 +1,26 @@
+{
+ "sha": "0c8662bb9cfa69e3d51a1f06a7c25f4b076695a7",
+ "short": "0c8662b",
+ "parents": [
+  "8949945353605c64db28f9d166fdfb513aa482b6"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:37:23+04:00",
+ "subject": "Best flag in the world uses the new red pennant style; smaller flags",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/fx.gd",
+   "add": 28,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 2,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,32 @@
+{
+ "sha": "0d57e52d488814e211bb78e3a9138d7beefec6b7",
+ "short": "0d57e52",
+ "parents": [
+  "1c3bb95a7721c115840f7e924ad47fa0d4d704eb"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:47:44+04:00",
+ "subject": "New map: Pine Forest with logs, rocks and stumps to drive over",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 9,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 6,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 110,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

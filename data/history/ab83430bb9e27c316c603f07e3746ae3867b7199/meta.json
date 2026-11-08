@@ -1,0 +1,50 @@
+{
+ "sha": "ab83430bb9e27c316c603f07e3746ae3867b7199",
+ "short": "ab83430",
+ "parents": [
+  "0d57e52d488814e211bb78e3a9138d7beefec6b7"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T00:01:36+04:00",
+ "subject": "5 new maps with obstacles + per-map milestone prizes",
+ "body": "Maps: Sunny Farm, Junkyard, Construction Site, Snowy Woods, Haunted Hollow,\neach with its own obstacles (hay, tires, pipes, ice, tombstones...) and props.\nMilestones: every map has its own distances; each next one pays more coins.\nShown as green gates in the world and green coins on the road map.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 67,
+   "del": 12,
+   "status": "M"
+  },
+  {
+   "path": "scripts/fx.gd",
+   "add": 18,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 25,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 12,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 29,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 194,
+   "del": 41,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

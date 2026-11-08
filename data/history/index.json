@@ -1,16 +1,126 @@
 {
- "updated": "2026-11-08T23:01:44+04:00",
+ "updated": "2026-11-09T00:28:52+04:00",
  "commits": [
   {
-   "sha": "5cae9eac51704b61e3a2409f8b7cf506f577fe26",
-   "short": "5cae9ea",
+   "sha": "ab83430bb9e27c316c603f07e3746ae3867b7199",
+   "short": "ab83430",
    "parents": [
-    "3c99eaa5c545ff0b08fc5c85f76a44c9eedf037e"
+    "0d57e52d488814e211bb78e3a9138d7beefec6b7"
    ],
    "author": "musho7-dev",
-   "date": "2026-11-08T23:01:29+04:00",
-   "subject": "Dashboard: publish to GitHub Pages, auto-publish on every push",
-   "files": 1,
+   "date": "2026-11-09T00:01:36+04:00",
+   "subject": "5 new maps with obstacles + per-map milestone prizes",
+   "files": 6,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [
+      "farm",
+      "junkyard",
+      "build",
+      "snow",
+      "haunted"
+     ],
+     "removed": [],
+     "look": [
+      "jungle",
+      "moon",
+      "beach",
+      "city",
+      "ice",
+      "mars",
+      "forest",
+      "volcano",
+      "candy"
+     ],
+     "stats": [
+      "dust",
+      "jungle",
+      "moon",
+      "beach",
+      "city",
+      "ice",
+      "mars",
+      "forest",
+      "volcano",
+      "candy"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "0d57e52d488814e211bb78e3a9138d7beefec6b7",
+   "short": "0d57e52",
+   "parents": [
+    "1c3bb95a7721c115840f7e924ad47fa0d4d704eb"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T22:47:44+04:00",
+   "subject": "New map: Pine Forest with logs, rocks and stumps to drive over",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [
+      "forest"
+     ],
+     "removed": [],
+     "look": [
+      "jungle",
+      "moon",
+      "beach",
+      "city",
+      "ice",
+      "mars",
+      "volcano",
+      "candy"
+     ],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 10
+   }
+  },
+  {
+   "sha": "1c3bb95a7721c115840f7e924ad47fa0d4d704eb",
+   "short": "1c3bb95",
+   "parents": [
+    "0c8662bb9cfa69e3d51a1f06a7c25f4b076695a7"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T22:41:32+04:00",
+   "subject": "Hide best flag (map + world) after you beat it",
+   "files": 2,
    "export_ok": true,
    "has_parent_snapshot": true,
    "changes": {
@@ -38,15 +148,15 @@
    }
   },
   {
-   "sha": "3c99eaa5c545ff0b08fc5c85f76a44c9eedf037e",
-   "short": "3c99eaa",
+   "sha": "0c8662bb9cfa69e3d51a1f06a7c25f4b076695a7",
+   "short": "0c8662b",
    "parents": [
     "8949945353605c64db28f9d166fdfb513aa482b6"
    ],
    "author": "musho7-dev",
-   "date": "2026-11-08T22:49:48+04:00",
-   "subject": "Add web dashboard: cars, maps and per-push history with before/after pictures",
-   "files": 8,
+   "date": "2026-11-08T22:37:23+04:00",
+   "subject": "Best flag in the world uses the new red pennant style; smaller flags",
+   "files": 2,
    "export_ok": true,
    "has_parent_snapshot": true,
    "changes": {
@@ -254,31 +364,31 @@
     },
     "parts": {
      "added": [
+      "extras/roofrack",
+      "extras/antenna",
+      "extras/horns",
+      "extras/fin",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky",
       "paint/mint",
       "paint/lime",
       "paint/sky",
       "paint/navy",
       "paint/cherry",
       "paint/chrome",
-      "wheels/drift",
-      "wheels/tractor",
-      "wheels/spiky",
-      "engine/turbo",
-      "engine/electric",
-      "engine/jet",
-      "extras/roofrack",
-      "extras/antenna",
-      "extras/horns",
-      "extras/fin",
-      "body/beetle",
-      "body/jeep",
-      "body/truck",
-      "body/hotrod",
       "decal/lightning",
       "decal/dots",
       "decal/zigzag",
       "decal/hearts",
-      "decal/wave"
+      "decal/wave",
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet"
      ],
      "removed": [],
      "changed": []
@@ -1338,14 +1448,6 @@
     },
     "parts": {
      "added": [
-      "wheels/standard",
-      "wheels/racing",
-      "wheels/offroad",
-      "wheels/monster",
-      "engine/stock",
-      "engine/v6",
-      "engine/v8",
-      "engine/rocket",
       "extras/spoiler",
       "extras/siren",
       "extras/flag",
@@ -1361,16 +1463,24 @@
       "paint/black",
       "paint/white",
       "paint/gold",
-      "body/buggy",
-      "body/kart",
-      "body/racer",
-      "body/pickup",
       "decal/none",
       "decal/stripes",
       "decal/number",
       "decal/stars",
       "decal/checker",
-      "decal/flames"
+      "decal/flames",
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup",
+      "engine/stock",
+      "engine/v6",
+      "engine/v8",
+      "engine/rocket",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster"
      ],
      "removed": [],
      "changed": []
@@ -1592,13 +1702,5 @@
    }
   }
  ],
- "pushes": [
-  {
-   "time": "2026-11-08T23:01:30+04:00",
-   "ref": "refs/heads/claude/car-app-web-interface-bf2e5a",
-   "commits": [
-    "5cae9eac51704b61e3a2409f8b7cf506f577fe26"
-   ]
-  }
- ]
+ "pushes": []
 }

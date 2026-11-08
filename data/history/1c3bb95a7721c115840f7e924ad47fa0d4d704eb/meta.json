@@ -1,0 +1,26 @@
+{
+ "sha": "1c3bb95a7721c115840f7e924ad47fa0d4d704eb",
+ "short": "1c3bb95",
+ "parents": [
+  "0c8662bb9cfa69e3d51a1f06a7c25f4b076695a7"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:41:32+04:00",
+ "subject": "Hide best flag (map + world) after you beat it",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/fx.gd",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}
