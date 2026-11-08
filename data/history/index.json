@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-08T22:47:35+04:00",
+ "updated": "2026-11-08T23:01:44+04:00",
  "commits": [
+  {
+   "sha": "5cae9eac51704b61e3a2409f8b7cf506f577fe26",
+   "short": "5cae9ea",
+   "parents": [
+    "3c99eaa5c545ff0b08fc5c85f76a44c9eedf037e"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T23:01:29+04:00",
+   "subject": "Dashboard: publish to GitHub Pages, auto-publish on every push",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
+  {
+   "sha": "3c99eaa5c545ff0b08fc5c85f76a44c9eedf037e",
+   "short": "3c99eaa",
+   "parents": [
+    "8949945353605c64db28f9d166fdfb513aa482b6"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-08T22:49:48+04:00",
+   "subject": "Add web dashboard: cars, maps and per-push history with before/after pictures",
+   "files": 8,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 33,
+    "maps": 9
+   }
+  },
   {
    "sha": "8949945353605c64db28f9d166fdfb513aa482b6",
    "short": "8949945",
@@ -182,31 +254,31 @@
     },
     "parts": {
      "added": [
-      "decal/lightning",
-      "decal/dots",
-      "decal/zigzag",
-      "decal/hearts",
-      "decal/wave",
       "paint/mint",
       "paint/lime",
       "paint/sky",
       "paint/navy",
       "paint/cherry",
       "paint/chrome",
-      "body/beetle",
-      "body/jeep",
-      "body/truck",
-      "body/hotrod",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet",
       "extras/roofrack",
       "extras/antenna",
       "extras/horns",
       "extras/fin",
-      "engine/turbo",
-      "engine/electric",
-      "engine/jet",
-      "wheels/drift",
-      "wheels/tractor",
-      "wheels/spiky"
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "decal/lightning",
+      "decal/dots",
+      "decal/zigzag",
+      "decal/hearts",
+      "decal/wave"
      ],
      "removed": [],
      "changed": []
@@ -1266,16 +1338,14 @@
     },
     "parts": {
      "added": [
-      "decal/none",
-      "decal/stripes",
-      "decal/number",
-      "decal/stars",
-      "decal/checker",
-      "decal/flames",
-      "body/buggy",
-      "body/kart",
-      "body/racer",
-      "body/pickup",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster",
+      "engine/stock",
+      "engine/v6",
+      "engine/v8",
+      "engine/rocket",
       "extras/spoiler",
       "extras/siren",
       "extras/flag",
@@ -1291,14 +1361,16 @@
       "paint/black",
       "paint/white",
       "paint/gold",
-      "engine/stock",
-      "engine/v6",
-      "engine/v8",
-      "engine/rocket",
-      "wheels/standard",
-      "wheels/racing",
-      "wheels/offroad",
-      "wheels/monster"
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup",
+      "decal/none",
+      "decal/stripes",
+      "decal/number",
+      "decal/stars",
+      "decal/checker",
+      "decal/flames"
      ],
      "removed": [],
      "changed": []
@@ -1520,5 +1592,13 @@
    }
   }
  ],
- "pushes": []
+ "pushes": [
+  {
+   "time": "2026-11-08T23:01:30+04:00",
+   "ref": "refs/heads/claude/car-app-web-interface-bf2e5a",
+   "commits": [
+    "5cae9eac51704b61e3a2409f8b7cf506f577fe26"
+   ]
+  }
+ ]
 }

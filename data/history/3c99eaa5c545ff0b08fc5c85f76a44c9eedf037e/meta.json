@@ -1,0 +1,62 @@
+{
+ "sha": "3c99eaa5c545ff0b08fc5c85f76a44c9eedf037e",
+ "short": "3c99eaa",
+ "parents": [
+  "8949945353605c64db28f9d166fdfb513aa482b6"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-08T22:49:48+04:00",
+ "subject": "Add web dashboard: cars, maps and per-push history with before/after pictures",
+ "body": "- tools/export_dashboard.gd renders every car and map with the game's own\n  drawing code (animation clock frozen so pictures are deterministic) and\n  exports their stats, trait bonuses, upgrade costs and hill profiles\n- tools/dashboard.py snapshots any commit, builds a change summary per\n  commit, serves the dashboard and installs a background pre-push hook\n- dashboard/: Cars tab with search/sort/filter and a details modal,\n  Maps tab with hill profiles, History tab grouped by push with\n  before/after images, stat diffs and hill-line comparisons\n- Generated data lives in the main checkout's dashboard/data (git-ignored)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": ".claude/launch.json",
+   "add": 11,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": ".gitignore",
+   "add": 4,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "dashboard/app.js",
+   "add": 557,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "dashboard/index.html",
+   "add": 65,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "dashboard/style.css",
+   "add": 209,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/dashboard.py",
+   "add": 263,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/export_dashboard.gd",
+   "add": 240,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/export_dashboard.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}
