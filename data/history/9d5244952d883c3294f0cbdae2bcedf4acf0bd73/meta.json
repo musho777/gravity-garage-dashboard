@@ -1,0 +1,314 @@
+{
+ "sha": "9d5244952d883c3294f0cbdae2bcedf4acf0bd73",
+ "short": "9d52449",
+ "parents": [
+  "a82fbfd76c44f23354074eec8ddc7d1d57fb3483"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T22:18:32+04:00",
+ "subject": "New cars: Mountain Rescue SUV, Off-Road Pickup; new pictures for Farm Tractor, Logging Truck (3 axles), Purple Hot Rod",
+ "body": "- import tool: black painted backgrounds, tire bottoms cut off by the picture edge,\n  3-axle trucks (middle axle drawn turning with the rear wheel)\n- small-wheeled pictures drawn a bit bigger (tires >= ~17 px)\n- hot rod: weight a little to the back\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 1009,
+   "del": 688,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hotrod.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheelx0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger_wheelx0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pickup_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rescue_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rover.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/tractor.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/tractor_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tractor_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tractor_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tractor_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 8,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 15,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/farm_tractor.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/farm_tractor.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/logging_truck.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/logging_truck.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/mountain_rescue.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/mountain_rescue.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/offroad_pickup.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/offroad_pickup.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/purple_muscle.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/purple_muscle.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 52,
+   "del": 10,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

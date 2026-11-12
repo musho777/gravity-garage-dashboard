@@ -1,0 +1,146 @@
+{
+ "sha": "048426331cf4b168b06125e0afe0543427270a14",
+ "short": "0484263",
+ "parents": [
+  "8f808e2dbd66b956461037466a4a77a288d37023"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T22:37:36+04:00",
+ "subject": "New cars: Flame Off-Road Buggy, Turbo Police Racer; remove Purple Hot Rod (refunded)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 319,
+   "del": 147,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/flamebuggy.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/{hotrod.png.import => flamebuggy.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/flamebuggy_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/flamebuggy_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/flamebuggy_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/flamebuggy_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/turbopolice.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/{hotrod_wheel1.png.import => turbopolice.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/turbopolice_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/turbopolice_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/turbopolice_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/turbopolice_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 5,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/turbo_buggy.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod_wheel0.png.import => tools/extra_cars/turbo_buggy.webp.import",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/turbo_police.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/turbo_police.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 2,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

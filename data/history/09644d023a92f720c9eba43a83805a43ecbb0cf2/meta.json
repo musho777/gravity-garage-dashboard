@@ -1,0 +1,26 @@
+{
+ "sha": "09644d023a92f720c9eba43a83805a43ecbb0cf2",
+ "short": "09644d0",
+ "parents": [
+  "9636d5e4ff87e63e96ed055ff49c21db58d630ab"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T23:30:14+04:00",
+ "subject": "Driver only in the City Hatch and the Blue Sport Racer (DRIVER_CARS); other cars have none",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 7,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 3,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

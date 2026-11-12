@@ -1,0 +1,26 @@
+{
+ "sha": "dad80fadf1c8cc4e334cfa3e2ba8746baef3fe56",
+ "short": "dad80fa",
+ "parents": [
+  "09644d023a92f720c9eba43a83805a43ecbb0cf2"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T23:54:43+04:00",
+ "subject": "Better shocks for every car: progressive bump stop + compression damping",
+ "body": "- landings no longer bottom out (wheels slamming into the body): 1.93 -> 0 hits per landing,\n  fewer hops after landing (0.79 -> 0.17), same shaking on normal driving\n- tools/landing_test.gd measures it for all cars\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 33,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/landing_test.gd",
+   "add": 106,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

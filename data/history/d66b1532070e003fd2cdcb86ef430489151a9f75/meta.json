@@ -1,0 +1,44 @@
+{
+ "sha": "d66b1532070e003fd2cdcb86ef430489151a9f75",
+ "short": "d66b153",
+ "parents": [
+  "ab83430bb9e27c316c603f07e3746ae3867b7199"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T00:48:04+04:00",
+ "subject": "Make every map passable through cars, not easier maps",
+ "body": "- Traction control: a wheel spinning free in the air passes its engine share to the\n  wheel with grip (cars used to stall on steep walls with the rear wheel stopped)\n- Ground friction raised so each car's own grip (upgrades, tires) really counts\n  (Godot uses the smaller friction of two bodies; ground 1.0 capped every car at ~45 deg)\n- Obstacles no longer placed on steep walls (they wedged under the car)\n- New tires: Snow Chains (x1.6) and Ice Spikes (x2.4 grip on ice + snow)\n- New car: Snowmobile (track + ski, x2.2 grip on ice + snow)\n- Milestones are now one-time per map (saved)\n- Autotest: logs wheel spin and saves a screenshot when stuck\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 9,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 83,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 24,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 17,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 6,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,38 @@
+{
+ "sha": "06c366283677b33535c247effdc5922b90ab5755",
+ "short": "06c3662",
+ "parents": [
+  "0f483f34e1a92830cf6d29ddf9be8e8bfd82e605"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T22:59:39+04:00",
+ "subject": "Driver: never tiny in small windows (head 17-24 px), optional per-car size/shift in seats.json",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/seats.json",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/README.md",
+   "add": 4,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 7,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 4,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

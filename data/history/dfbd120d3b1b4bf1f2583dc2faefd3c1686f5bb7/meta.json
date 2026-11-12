@@ -1,0 +1,20 @@
+{
+ "sha": "dfbd120d3b1b4bf1f2583dc2faefd3c1686f5bb7",
+ "short": "dfbd120",
+ "parents": [
+  "5a6eaa7c5f9415ebf08a1b04b017a2086a356a8d"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T22:14:03+04:00",
+ "subject": "Share page: picture ~40% bigger (full card height), title moved to the button column",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,98 @@
+{
+ "sha": "9636d5e4ff87e63e96ed055ff49c21db58d630ab",
+ "short": "9636d5e",
+ "parents": [
+  "0b4ce10b7360c75c012d8553f0999101b2a0692c"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T23:25:00+04:00",
+ "subject": "Blue Sport Racer: new picture, driver placed from a reference picture",
+ "body": "- tools/erase_drawn_driver.py removes the driver drawn in the picture (window refilled)\n- import_cars SEAT_REF: head spot/size and window outline measured on a picture with the\n  driver drawn in -> cars.json seat_ref; the game seats the animated driver exactly there\n- lighter glass tint/shine for all closed cars\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/bluesport.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/bluesport_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/bluesport_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 110,
+   "del": 73,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 8,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 11,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/driver_gallery.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/erase_drawn_driver.py",
+   "add": 45,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer2.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer2.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer_driver_ref.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer_driver_ref.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 16,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

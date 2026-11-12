@@ -1,0 +1,74 @@
+{
+ "sha": "65e221a78baec1d09ba7e327ec1c482b7b4e0ecb",
+ "short": "65e221a",
+ "parents": [
+  "e601614c019ec14441f8a295e67b54f59e74e4e2"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T20:23:49+04:00",
+ "subject": "Remove Future Police (owners get 4,200 coins back)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 0,
+   "del": 137,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/future-police.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/future-police.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/seats.json",
+   "add": 196,
+   "del": 29,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 2,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "tools/car_wheels.json",
+   "add": 0,
+   "del": 12,
+   "status": "M"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "tools/extra_cars/blue_racer.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 1,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "tools/make_icon.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

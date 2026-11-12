@@ -1,0 +1,44 @@
+{
+ "sha": "e601614c019ec14441f8a295e67b54f59e74e4e2",
+ "short": "e601614",
+ "parents": [
+  "dad80fadf1c8cc4e334cfa3e2ba8746baef3fe56"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-10T08:43:36+04:00",
+ "subject": "New app icon: City Hatch with its driver climbing a hill (tools/make_icon.gd renders it from game art)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/icon/app_icon.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/icon/app_icon.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "project.godot",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/landing_test.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/make_icon.gd",
+   "add": 95,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

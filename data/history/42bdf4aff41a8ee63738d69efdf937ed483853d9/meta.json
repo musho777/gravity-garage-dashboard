@@ -1,0 +1,80 @@
+{
+ "sha": "42bdf4aff41a8ee63738d69efdf937ed483853d9",
+ "short": "42bdf4a",
+ "parents": [
+  "14f6509734b86dd3faa5417066dba37256cf12f0"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T23:15:20+04:00",
+ "subject": "New car: Military Battle Tank (huge power + grip, slow, heavy in the air)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 172,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/tank.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tank.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tank_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tank_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tank_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tank_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/battle_tank.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/battle_tank.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

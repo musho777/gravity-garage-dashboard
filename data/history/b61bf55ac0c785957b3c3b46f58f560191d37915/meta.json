@@ -1,0 +1,80 @@
+{
+ "sha": "b61bf55ac0c785957b3c3b46f58f560191d37915",
+ "short": "b61bf55",
+ "parents": [
+  "3e42908265c3d6b6dfbb0dbdd915f408d99d0002"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T21:32:10+04:00",
+ "subject": "Cars face forward + sports tires for the future cars",
+ "body": "- Crane Wrecker, Tow Truck, Garbage Truck, Snowplow and UFO pictures faced left: mirrored\n- Future Police and Hover Racer: real tires in wheel wells, low-profile with a neon rim\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 293,
+   "del": 265,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/future-police.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/garbage-truck.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hover.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/snowmobile.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/ufo.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/wrecker.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 25,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 3,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 10,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

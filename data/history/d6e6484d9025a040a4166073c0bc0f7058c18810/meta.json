@@ -1,0 +1,20 @@
+{
+ "sha": "d6e6484d9025a040a4166073c0bc0f7058c18810",
+ "short": "d6e6484",
+ "parents": [
+  "b9d34222d4e214db5ca5b425e36538bff3ec2c27"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T22:37:09+04:00",
+ "subject": "Battery: draw at most 60 fps (physics stays 120, same driving)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "project.godot",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

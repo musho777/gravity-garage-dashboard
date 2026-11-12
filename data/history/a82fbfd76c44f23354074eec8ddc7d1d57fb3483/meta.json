@@ -1,0 +1,92 @@
+{
+ "sha": "a82fbfd76c44f23354074eec8ddc7d1d57fb3483",
+ "short": "a82fbfd",
+ "parents": [
+  "09ef9006d4362f27e011283c3c6b73cc90d79e71"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T21:49:21+04:00",
+ "subject": "New car: Purple Rocket Racer (fastest car, rocket engine, thirsty)",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 135,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rocket.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rocket_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/rocket_racer.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/rocket_racer.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 8,
+   "del": 7,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

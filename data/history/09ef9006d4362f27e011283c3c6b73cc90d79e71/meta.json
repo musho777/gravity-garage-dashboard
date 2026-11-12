@@ -1,0 +1,86 @@
+{
+ "sha": "09ef9006d4362f27e011283c3c6b73cc90d79e71",
+ "short": "09ef900",
+ "parents": [
+  "b61bf55ac0c785957b3c3b46f58f560191d37915"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T21:42:47+04:00",
+ "subject": "New car: Volt Rover (electric off-roader with its own big tires)",
+ "body": "- import tool: extra pictures with tires drawn in; tires are cut out as turning wheel\n  pictures (hidden top tread rebuilt from the bottom), body drawn over them so the fenders\n  cover the tire tops like in the picture\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 147,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/rover.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel0.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/rover_wheel1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 8,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 5,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "tools/extra_cars/volt_rover.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/extra_cars/volt_rover.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 74,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

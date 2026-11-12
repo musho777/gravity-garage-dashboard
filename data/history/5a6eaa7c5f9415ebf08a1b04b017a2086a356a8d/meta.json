@@ -1,0 +1,32 @@
+{
+ "sha": "5a6eaa7c5f9415ebf08a1b04b017a2086a356a8d",
+ "short": "5a6eaa7",
+ "parents": [
+  "1dd020d46adb663d58f6bd00da57be016629b1d9"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T22:11:27+04:00",
+ "subject": "Share page redesign: same card as the other menus, framed picture + big buttons, one menu at a time",
+ "body": "- share picture: solid title/bottom bands (no sun showing through), gold lines, stat boxes\n- BACK returns to the run-end menu\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 5,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/share_card.gd",
+   "add": 40,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 44,
+   "del": 40,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

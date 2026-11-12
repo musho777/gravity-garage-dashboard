@@ -1,0 +1,20 @@
+{
+ "sha": "b05c76af37a3aebe905880a641c4384970d52dcc",
+ "short": "b05c76a",
+ "parents": [
+  "a4b7355a662b3eb53852da808e131e9c20d0a001"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T23:06:14+04:00",
+ "subject": "TUNE tires: each card shows its tire (slowly turning; Original = this car's own wheel), text wraps beside it",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 26,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

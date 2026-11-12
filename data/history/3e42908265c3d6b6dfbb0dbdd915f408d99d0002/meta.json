@@ -1,0 +1,182 @@
+{
+ "sha": "3e42908265c3d6b6dfbb0dbdd915f408d99d0002",
+ "short": "3e42908",
+ "parents": [
+  "b0551fb34636e0be9d16c7f8d01f5f243e3b295a"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T21:19:30+04:00",
+ "subject": "Tires that fit the picture cars: wider wheel wells cut into each picture, cartoon tires",
+ "body": "- import tool cuts a dark wheel well with an ink outline around each (bigger) tire,\n  so tires sit inside the body like in the original art; tire spots now come from the tool\n- new tire drawing in the pictures' style: bold outline, tread blocks, silver dish rim,\n  hub in the car's own paint color\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/ambulance.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/bakery.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/buggy.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/candy.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 406,
+   "del": 29,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/castle.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/delivery.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/dino.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/dozer.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/garbage-truck.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hatch.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hotrod.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/icecream.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/jeep.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/logger.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/monster.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/patrol.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/pirate.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/police.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/snowmobile.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/sundae.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/toucan.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/utility.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/wrecker.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 24,
+   "del": 13,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 12,
+   "del": 15,
+   "status": "M"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 59,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

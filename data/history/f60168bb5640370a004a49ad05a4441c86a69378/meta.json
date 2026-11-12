@@ -1,0 +1,32 @@
+{
+ "sha": "f60168bb5640370a004a49ad05a4441c86a69378",
+ "short": "f60168b",
+ "parents": [
+  "65e221a78baec1d09ba7e327ec1c482b7b4e0ecb"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T20:37:57+04:00",
+ "subject": "Milestones: a prize flag that floats up and down (world + road map) instead of the green arch",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/fx.gd",
+   "add": 37,
+   "del": 10,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 6,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 3,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

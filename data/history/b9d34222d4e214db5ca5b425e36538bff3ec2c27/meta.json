@@ -1,0 +1,20 @@
+{
+ "sha": "b9d34222d4e214db5ca5b425e36538bff3ec2c27",
+ "short": "b9d3422",
+ "parents": [
+  "dfbd120d3b1b4bf1f2583dc2faefd3c1686f5bb7"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T22:23:48+04:00",
+ "subject": "Self-test: perf option prints frame/physics/memory numbers every 5 s",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 8,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,104 @@
+{
+ "sha": "6980ba308206af740eaad68fbd33275e8908e31e",
+ "short": "6980ba3",
+ "parents": [
+  "9d5244952d883c3294f0cbdae2bcedf4acf0bd73"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T22:24:59+04:00",
+ "subject": "Remove Maglev Racer, Castle Racer, Bakery Truck, Tow Truck and Dune Buggy",
+ "body": "- City Hatch is the free starter now, with the old Buggy's beginner driving\n- owners of removed cars get their price back as coins\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/bakery.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/bakery.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/buggy.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/buggy.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 56,
+   "del": 857,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/castle.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/castle.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/maglev.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/maglev.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 5,
+   "del": 14,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 5,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "tools/car_wheels.json",
+   "add": 72,
+   "del": 8,
+   "status": "M"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 3,
+   "del": 8,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,26 @@
+{
+ "sha": "0b4ce10b7360c75c012d8553f0999101b2a0692c",
+ "short": "0b4ce10",
+ "parents": [
+  "6892e5b677a845a7c82599215257f1dd29fc1d46"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T23:10:51+04:00",
+ "subject": "Driver looks the same in every car: tinted glass + shine over him in closed cars, min head 19 px",
+ "body": "- tools/driver_gallery.gd: renders all cars with drivers (10 per page) to check seats\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car.gd",
+   "add": 15,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/driver_gallery.gd",
+   "add": 48,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

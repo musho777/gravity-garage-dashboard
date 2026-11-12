@@ -1,0 +1,20 @@
+{
+ "sha": "a4b7355a662b3eb53852da808e131e9c20d0a001",
+ "short": "a4b7355",
+ "parents": [
+  "d6e6484d9025a040a4166073c0bc0f7058c18810"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T23:00:18+04:00",
+ "subject": "Pickups: collected by anything touching the car (whole body outline + wheels), not only near its center",
+ "body": "- before: only within ~52 px of the car center or head spot, so big/odd-shaped picture cars\n  missed coins and fuel that touched the roof, back or wheels\n- self-test option pickuptest counts passed vs collected\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 35,
+   "del": 4,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

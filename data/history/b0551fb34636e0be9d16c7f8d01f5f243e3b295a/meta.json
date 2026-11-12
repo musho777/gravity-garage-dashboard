@@ -1,0 +1,1268 @@
+{
+ "sha": "b0551fb34636e0be9d16c7f8d01f5f243e3b295a",
+ "short": "b0551fb",
+ "parents": [
+  "d66b1532070e003fd2cdcb86ef430489151a9f75"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T21:08:06+04:00",
+ "subject": "Replace the car lineup with 29 picture cars from the car pack (standard ones only)",
+ "body": "- tools/import_cars.py: removes painted checkerboard backgrounds, crops, shrinks\n  (69 MB of pictures -> 3.7 MB), finds wheel arches; hand-placed wheels in car_wheels.json\n- data.gd loads assets/cars/pack/cars.json; driving classes keep the old balance\n  (Dune Buggy = old Buggy, Snowplow keeps the x2.2 ice grip)\n- weight sits low at axle height, long noses slope up so blades don't dig in\n- new cartoon tires, glowing pads for hover cars, garage zooms out for big cars\n- old cars removed (Kenney kit assets deleted); owned ones are refunded as coins\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/ambulance.json",
+   "add": 0,
+   "del": 25,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/ambulance_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/ambulance_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/ambulance_wheel.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/ambulance_wheel.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery-flat_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/delivery_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/firetruck_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/garbage-truck_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/hatchback-sports_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oobi_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oodi_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-ooli_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oopi_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kart-oozi_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/kit.json",
+   "add": 0,
+   "del": 1766,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/police_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/police_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race-future_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/race_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan-sports_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/sedan_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv-luxury_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/suv_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/taxi_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/taxi_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-police_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor-shovel_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/tractor_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck-flat_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_body.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/truck_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/van_body.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel0.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel0.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel1.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/kit/van_wheel1.png.import",
+   "add": 0,
+   "del": 40,
+   "status": "D"
+  },
+  {
+   "path": "assets/cars/pack/ambulance.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/ambulance.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/bakery.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/suv_body.png.import => pack/bakery.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/buggy.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/van_body.png.import => pack/buggy.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/candy.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/taxi_body.png.import => pack/candy.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 4374,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/castle.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/race_body.png.import => pack/castle.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/delivery.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/delivery.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/dino.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/dino.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/dozer.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/dozer.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/future-police.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/police_wheel0.png.import => pack/future-police.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/garbage-truck.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/police_body.png.import => pack/garbage-truck.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/hatch.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hatch.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hotrod.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hover.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/hover.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/icecream.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/icecream.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/jeep.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/jeep.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/logger.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/maglev.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/maglev.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/monster.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/monster.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/patrol.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/patrol.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pirate.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/pirate.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/police.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/police.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/snowmobile.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/{kit/sedan_body.png.import => pack/snowmobile.png.import}",
+   "add": 4,
+   "del": 4,
+   "status": "M"
+  },
+  {
+   "path": "assets/cars/pack/sundae.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/sundae.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/toucan.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/toucan.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/towtruck.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tractor.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/tractor.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/ufo.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/ufo.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/utility.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/utility.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/wrecker.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/cars/pack/wrecker.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "export_presets.cfg",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 3,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 38,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 134,
+   "del": 177,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 12,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "tools/car_wheels.json",
+   "add": 10,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 184,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

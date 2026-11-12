@@ -1,0 +1,26 @@
+{
+ "sha": "1dd020d46adb663d58f6bd00da57be016629b1d9",
+ "short": "1dd020d",
+ "parents": [
+  "b448484b013cd1a210ee9f371bf6deb685ddef94"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T22:07:27+04:00",
+ "subject": "One menu style: pause menu rebuilt like the run-end menu (shared card, ribbon, big distance, stats, big main button)",
+ "body": "- also: an unknown map in the save falls back to Dust Mesa\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 51,
+   "del": 46,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

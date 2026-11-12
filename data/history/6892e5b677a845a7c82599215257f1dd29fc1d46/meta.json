@@ -1,0 +1,98 @@
+{
+ "sha": "6892e5b677a845a7c82599215257f1dd29fc1d46",
+ "short": "6892e5b",
+ "parents": [
+  "06c366283677b33535c247effdc5922b90ab5755"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T23:05:46+04:00",
+ "subject": "Driver: new sprite sheet without a seat (sits naturally in every car)",
+ "body": "- import_driver: new sheet boxes, redraws a clean outline (its ink was as black as the background)\n- head anchor/size for the new frames; open seats sit a bit lower so the chest edge stays hidden\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/drivers/purple/fall_1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/fall_2.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/fall_3.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/land_1.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/land_2.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/seat_angry.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/seat_happy.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple/seat_scared.png",
+   "add": null,
+   "del": null,
+   "status": "M"
+  },
+  {
+   "path": "assets/drivers/purple_driver.tres",
+   "add": 2,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 2,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet.png",
+   "add": null,
+   "del": null,
+   "status": "D"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet_noseat.webp",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet_noseat.webp.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_driver.py",
+   "add": 30,
+   "del": 10,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

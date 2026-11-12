@@ -1,0 +1,32 @@
+{
+ "sha": "5a19d40ff2dc0a647468ae30a86e1225412cc2ac",
+ "short": "5a19d40",
+ "parents": [
+  "42bdf4aff41a8ee63738d69efdf937ed483853d9"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T23:17:50+04:00",
+ "subject": "TUNE upgrades redesign: 2x2 cards with drawn icons, level bars, effect now > next, big colored price button",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 5,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 60,
+   "del": 21,
+   "status": "M"
+  },
+  {
+   "path": "scripts/upgrade_icon.gd",
+   "add": 55,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

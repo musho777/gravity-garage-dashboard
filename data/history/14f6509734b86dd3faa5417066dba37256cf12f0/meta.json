@@ -1,0 +1,20 @@
+{
+ "sha": "14f6509734b86dd3faa5417066dba37256cf12f0",
+ "short": "14f6509",
+ "parents": [
+  "b05c76af37a3aebe905880a641c4384970d52dcc"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T23:08:17+04:00",
+ "subject": "TUNE tires: 2 per row, bigger tire pictures and text",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 6,
+   "del": 5,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

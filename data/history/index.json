@@ -1,6 +1,1381 @@
 {
- "updated": "2026-11-09T00:30:18+04:00",
+ "updated": "2026-11-13T00:47:02+04:00",
  "commits": [
+  {
+   "sha": "5a19d40ff2dc0a647468ae30a86e1225412cc2ac",
+   "short": "5a19d40",
+   "parents": [
+    "42bdf4aff41a8ee63738d69efdf937ed483853d9"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T23:17:50+04:00",
+   "subject": "TUNE upgrades redesign: 2x2 cards with drawn icons, level bars, effect now > next, big colored price button",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "42bdf4aff41a8ee63738d69efdf937ed483853d9",
+   "short": "42bdf4a",
+   "parents": [
+    "14f6509734b86dd3faa5417066dba37256cf12f0"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T23:15:20+04:00",
+   "subject": "New car: Military Battle Tank (huge power + grip, slow, heavy in the air)",
+   "files": 11,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "tank"
+     ],
+     "removed": [],
+     "look": [
+      "rescue",
+      "ufo",
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "14f6509734b86dd3faa5417066dba37256cf12f0",
+   "short": "14f6509",
+   "parents": [
+    "b05c76af37a3aebe905880a641c4384970d52dcc"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T23:08:17+04:00",
+   "subject": "TUNE tires: 2 per row, bigger tire pictures and text",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "b05c76af37a3aebe905880a641c4384970d52dcc",
+   "short": "b05c76a",
+   "parents": [
+    "a4b7355a662b3eb53852da808e131e9c20d0a001"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T23:06:14+04:00",
+   "subject": "TUNE tires: each card shows its tire (slowly turning; Original = this car's own wheel), text wraps beside it",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "a4b7355a662b3eb53852da808e131e9c20d0a001",
+   "short": "a4b7355",
+   "parents": [
+    "d6e6484d9025a040a4166073c0bc0f7058c18810"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T23:00:18+04:00",
+   "subject": "Pickups: collected by anything touching the car (whole body outline + wheels), not only near its center",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "d6e6484d9025a040a4166073c0bc0f7058c18810",
+   "short": "d6e6484",
+   "parents": [
+    "b9d34222d4e214db5ca5b425e36538bff3ec2c27"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T22:37:09+04:00",
+   "subject": "Battery: draw at most 60 fps (physics stays 120, same driving)",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "b9d34222d4e214db5ca5b425e36538bff3ec2c27",
+   "short": "b9d3422",
+   "parents": [
+    "dfbd120d3b1b4bf1f2583dc2faefd3c1686f5bb7"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T22:23:48+04:00",
+   "subject": "Self-test: perf option prints frame/physics/memory numbers every 5 s",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "dfbd120d3b1b4bf1f2583dc2faefd3c1686f5bb7",
+   "short": "dfbd120",
+   "parents": [
+    "5a6eaa7c5f9415ebf08a1b04b017a2086a356a8d"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T22:14:03+04:00",
+   "subject": "Share page: picture ~40% bigger (full card height), title moved to the button column",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "5a6eaa7c5f9415ebf08a1b04b017a2086a356a8d",
+   "short": "5a6eaa7",
+   "parents": [
+    "1dd020d46adb663d58f6bd00da57be016629b1d9"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T22:11:27+04:00",
+   "subject": "Share page redesign: same card as the other menus, framed picture + big buttons, one menu at a time",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "1dd020d46adb663d58f6bd00da57be016629b1d9",
+   "short": "1dd020d",
+   "parents": [
+    "b448484b013cd1a210ee9f371bf6deb685ddef94"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T22:07:27+04:00",
+   "subject": "One menu style: pause menu rebuilt like the run-end menu (shared card, ribbon, big distance, stats, big main button)",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "b448484b013cd1a210ee9f371bf6deb685ddef94",
+   "short": "b448484",
+   "parents": [
+    "139f0135cdb3b29513a2b4fe4d0f0a89bd751c68"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T21:56:08+04:00",
+   "subject": "Round off near-vertical wall tops: climb limit 60\u00b0 on every map (ice + snow keep theirs)",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": [
+      "dust",
+      "jungle",
+      "farm",
+      "moon",
+      "beach",
+      "city",
+      "junkyard",
+      "ice",
+      "build",
+      "mars",
+      "forest",
+      "volcano",
+      "snow",
+      "candy",
+      "haunted"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "139f0135cdb3b29513a2b4fe4d0f0a89bd751c68",
+   "short": "139f013",
+   "parents": [
+    "f60168bb5640370a004a49ad05a4441c86a69378"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T20:48:56+04:00",
+   "subject": "Bigger, clearer end-of-run screen: reason ribbon, big distance, your best, big stats, one huge AGAIN button",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "f60168bb5640370a004a49ad05a4441c86a69378",
+   "short": "f60168b",
+   "parents": [
+    "65e221a78baec1d09ba7e327ec1c482b7b4e0ecb"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T20:37:57+04:00",
+   "subject": "Milestones: a prize flag that floats up and down (world + road map) instead of the green arch",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "65e221a78baec1d09ba7e327ec1c482b7b4e0ecb",
+   "short": "65e221a",
+   "parents": [
+    "e601614c019ec14441f8a295e67b54f59e74e4e2"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-12T20:23:49+04:00",
+   "subject": "Remove Future Police (owners get 4,200 coins back)",
+   "files": 10,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [
+      "future-police"
+     ],
+     "look": [
+      "rescue",
+      "ufo",
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "e601614c019ec14441f8a295e67b54f59e74e4e2",
+   "short": "e601614",
+   "parents": [
+    "dad80fadf1c8cc4e334cfa3e2ba8746baef3fe56"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-10T08:43:36+04:00",
+   "subject": "New app icon: City Hatch with its driver climbing a hill (tools/make_icon.gd renders it from game art)",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "dad80fadf1c8cc4e334cfa3e2ba8746baef3fe56",
+   "short": "dad80fa",
+   "parents": [
+    "09644d023a92f720c9eba43a83805a43ecbb0cf2"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T23:54:43+04:00",
+   "subject": "Better shocks for every car: progressive bump stop + compression damping",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "09644d023a92f720c9eba43a83805a43ecbb0cf2",
+   "short": "09644d0",
+   "parents": [
+    "9636d5e4ff87e63e96ed055ff49c21db58d630ab"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T23:30:14+04:00",
+   "subject": "Driver only in the City Hatch and the Blue Sport Racer (DRIVER_CARS); other cars have none",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "9636d5e4ff87e63e96ed055ff49c21db58d630ab",
+   "short": "9636d5e",
+   "parents": [
+    "0b4ce10b7360c75c012d8553f0999101b2a0692c"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T23:25:00+04:00",
+   "subject": "Blue Sport Racer: new picture, driver placed from a reference picture",
+   "files": 14,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "bluesport"
+     ],
+     "stats": [
+      "bluesport"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "0b4ce10b7360c75c012d8553f0999101b2a0692c",
+   "short": "0b4ce10",
+   "parents": [
+    "6892e5b677a845a7c82599215257f1dd29fc1d46"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T23:10:51+04:00",
+   "subject": "Driver looks the same in every car: tinted glass + shine over him in closed cars, min head 19 px",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "6892e5b677a845a7c82599215257f1dd29fc1d46",
+   "short": "6892e5b",
+   "parents": [
+    "06c366283677b33535c247effdc5922b90ab5755"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T23:05:46+04:00",
+   "subject": "Driver: new sprite sheet without a seat (sits naturally in every car)",
+   "files": 14,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "06c366283677b33535c247effdc5922b90ab5755",
+   "short": "06c3662",
+   "parents": [
+    "0f483f34e1a92830cf6d29ddf9be8e8bfd82e605"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:59:39+04:00",
+   "subject": "Driver: never tiny in small windows (head 17-24 px), optional per-car size/shift in seats.json",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "0f483f34e1a92830cf6d29ddf9be8e8bfd82e605",
+   "short": "0f483f3",
+   "parents": [
+    "048426331cf4b168b06125e0afe0543427270a14"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:54:29+04:00",
+   "subject": "Driver character: seated driver in every car, thrown out on crashes",
+   "files": 34,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "048426331cf4b168b06125e0afe0543427270a14",
+   "short": "0484263",
+   "parents": [
+    "8f808e2dbd66b956461037466a4a77a288d37023"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:37:36+04:00",
+   "subject": "New cars: Flame Off-Road Buggy, Turbo Police Racer; remove Purple Hot Rod (refunded)",
+   "files": 22,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "flamebuggy",
+      "turbopolice"
+     ],
+     "removed": [
+      "hotrod"
+     ],
+     "look": [
+      "monster",
+      "dino",
+      "future-police",
+      "pirate",
+      "pickup",
+      "ufo",
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "8f808e2dbd66b956461037466a4a77a288d37023",
+   "short": "8f808e2",
+   "parents": [
+    "6980ba308206af740eaad68fbd33275e8908e31e"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:29:14+04:00",
+   "subject": "New car: Blue Sport Racer; remove Hover Racer (refunded)",
+   "files": 13,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "bluesport"
+     ],
+     "removed": [
+      "hover"
+     ],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "6980ba308206af740eaad68fbd33275e8908e31e",
+   "short": "6980ba3",
+   "parents": [
+    "9d5244952d883c3294f0cbdae2bcedf4acf0bd73"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:24:59+04:00",
+   "subject": "Remove Maglev Racer, Castle Racer, Bakery Truck, Tow Truck and Dune Buggy",
+   "files": 15,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [
+      "buggy",
+      "towtruck",
+      "bakery",
+      "castle",
+      "maglev"
+     ],
+     "look": [
+      "custom",
+      "hatch",
+      "ambulance",
+      "police",
+      "wrecker",
+      "utility",
+      "monster",
+      "snowmobile",
+      "future-police",
+      "pirate",
+      "pickup",
+      "ufo",
+      "hover",
+      "rocket"
+     ],
+     "stats": [
+      "hatch"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "9d5244952d883c3294f0cbdae2bcedf4acf0bd73",
+   "short": "9d52449",
+   "parents": [
+    "a82fbfd76c44f23354074eec8ddc7d1d57fb3483"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T22:18:32+04:00",
+   "subject": "New cars: Mountain Rescue SUV, Off-Road Pickup; new pictures for Farm Tractor, Logging Truck (3 axles), Purple Hot Rod",
+   "files": 50,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "pickup",
+      "rescue"
+     ],
+     "removed": [],
+     "look": [
+      "tractor",
+      "hotrod",
+      "bakery",
+      "logger",
+      "rover",
+      "ufo",
+      "hover",
+      "maglev",
+      "rocket"
+     ],
+     "stats": [
+      "tractor",
+      "hotrod",
+      "bakery",
+      "logger",
+      "rover",
+      "maglev"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 34,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "a82fbfd76c44f23354074eec8ddc7d1d57fb3483",
+   "short": "a82fbfd",
+   "parents": [
+    "09ef9006d4362f27e011283c3c6b73cc90d79e71"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T21:49:21+04:00",
+   "subject": "New car: Purple Rocket Racer (fastest car, rocket engine, thirsty)",
+   "files": 13,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "rocket"
+     ],
+     "removed": [],
+     "look": [
+      "rover"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 32,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "09ef9006d4362f27e011283c3c6b73cc90d79e71",
+   "short": "09ef900",
+   "parents": [
+    "b61bf55ac0c785957b3c3b46f58f560191d37915"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T21:42:47+04:00",
+   "subject": "New car: Volt Rover (electric off-roader with its own big tires)",
+   "files": 12,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "rover"
+     ],
+     "removed": [],
+     "look": [
+      "custom",
+      "buggy",
+      "hotrod",
+      "ufo",
+      "hover",
+      "maglev"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 31,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "b61bf55ac0c785957b3c3b46f58f560191d37915",
+   "short": "b61bf55",
+   "parents": [
+    "3e42908265c3d6b6dfbb0dbdd915f408d99d0002"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T21:32:10+04:00",
+   "subject": "Cars face forward + sports tires for the future cars",
+   "files": 11,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "towtruck",
+      "wrecker",
+      "garbage-truck",
+      "snowmobile",
+      "future-police",
+      "ufo",
+      "hover"
+     ],
+     "stats": [
+      "future-police",
+      "hover"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "3e42908265c3d6b6dfbb0dbdd915f408d99d0002",
+   "short": "3e42908",
+   "parents": [
+    "b0551fb34636e0be9d16c7f8d01f5f243e3b295a"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T21:19:30+04:00",
+   "subject": "Tires that fit the picture cars: wider wheel wells cut into each picture, cartoon tires",
+   "files": 28,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "buggy",
+      "hatch",
+      "ambulance",
+      "police",
+      "delivery",
+      "jeep",
+      "tractor",
+      "towtruck",
+      "wrecker",
+      "icecream",
+      "hotrod",
+      "utility",
+      "garbage-truck",
+      "patrol",
+      "monster",
+      "bakery",
+      "sundae",
+      "logger",
+      "snowmobile",
+      "toucan",
+      "candy",
+      "castle",
+      "dozer",
+      "dino",
+      "future-police",
+      "pirate",
+      "ufo",
+      "hover",
+      "maglev"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "b0551fb34636e0be9d16c7f8d01f5f243e3b295a",
+   "short": "b0551fb",
+   "parents": [
+    "d66b1532070e003fd2cdcb86ef430489151a9f75"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T21:08:06+04:00",
+   "subject": "Replace the car lineup with 29 picture cars from the car pack (standard ones only)",
+   "files": 209,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "hatch",
+      "jeep",
+      "towtruck",
+      "wrecker",
+      "hotrod",
+      "utility",
+      "patrol",
+      "bakery",
+      "sundae",
+      "logger",
+      "toucan",
+      "candy",
+      "castle",
+      "dozer",
+      "dino",
+      "future-police",
+      "pirate",
+      "ufo",
+      "hover",
+      "maglev"
+     ],
+     "removed": [
+      "rocket",
+      "cart",
+      "sofa",
+      "bathtub",
+      "delivery-flat",
+      "firetruck",
+      "hatchback-sports",
+      "kart-oobi",
+      "kart-oodi",
+      "kart-ooli",
+      "kart-oopi",
+      "kart-oozi",
+      "race",
+      "race-future",
+      "sedan",
+      "sedan-sports",
+      "suv",
+      "suv-luxury",
+      "taxi",
+      "tractor-police",
+      "tractor-shovel",
+      "truck",
+      "truck-flat",
+      "van"
+     ],
+     "look": [
+      "custom",
+      "buggy",
+      "ambulance",
+      "police",
+      "delivery",
+      "tractor",
+      "icecream",
+      "garbage-truck",
+      "monster",
+      "snowmobile"
+     ],
+     "stats": [
+      "buggy",
+      "ambulance",
+      "police",
+      "delivery",
+      "tractor",
+      "icecream",
+      "garbage-truck",
+      "monster",
+      "snowmobile"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "d66b1532070e003fd2cdcb86ef430489151a9f75",
+   "short": "d66b153",
+   "parents": [
+    "ab83430bb9e27c316c603f07e3746ae3867b7199"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-09T00:48:04+04:00",
+   "subject": "Make every map passable through cars, not easier maps",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [
+      "snowmobile"
+     ],
+     "removed": [],
+     "look": [
+      "police",
+      "sedan-sports",
+      "tractor",
+      "tractor-shovel"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [
+      "tires/chains",
+      "tires/spikes"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 34,
+    "maps": 15
+   }
+  },
   {
    "sha": "ab83430bb9e27c316c603f07e3746ae3867b7199",
    "short": "ab83430",
@@ -364,31 +1739,31 @@
     },
     "parts": {
      "added": [
-      "body/beetle",
-      "body/jeep",
-      "body/truck",
-      "body/hotrod",
       "decal/lightning",
       "decal/dots",
       "decal/zigzag",
       "decal/hearts",
       "decal/wave",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet",
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky",
       "extras/roofrack",
       "extras/antenna",
       "extras/horns",
       "extras/fin",
-      "wheels/drift",
-      "wheels/tractor",
-      "wheels/spiky",
       "paint/mint",
       "paint/lime",
       "paint/sky",
       "paint/navy",
       "paint/cherry",
-      "paint/chrome",
-      "engine/turbo",
-      "engine/electric",
-      "engine/jet"
+      "paint/chrome"
      ],
      "removed": [],
      "changed": []
@@ -1448,20 +2823,16 @@
     },
     "parts": {
      "added": [
-      "body/buggy",
-      "body/kart",
-      "body/racer",
-      "body/pickup",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster",
       "decal/none",
       "decal/stripes",
       "decal/number",
       "decal/stars",
       "decal/checker",
       "decal/flames",
-      "wheels/standard",
-      "wheels/racing",
-      "wheels/offroad",
-      "wheels/monster",
       "paint/teal",
       "paint/red",
       "paint/orange",
@@ -1473,14 +2844,18 @@
       "paint/black",
       "paint/white",
       "paint/gold",
+      "extras/spoiler",
+      "extras/siren",
+      "extras/flag",
+      "extras/pipes",
       "engine/stock",
       "engine/v6",
       "engine/v8",
       "engine/rocket",
-      "extras/spoiler",
-      "extras/siren",
-      "extras/flag",
-      "extras/pipes"
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup"
      ],
      "removed": [],
      "changed": []

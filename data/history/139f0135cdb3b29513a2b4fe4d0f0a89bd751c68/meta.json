@@ -1,0 +1,20 @@
+{
+ "sha": "139f0135cdb3b29513a2b4fe4d0f0a89bd751c68",
+ "short": "139f013",
+ "parents": [
+  "f60168bb5640370a004a49ad05a4441c86a69378"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-12T20:48:56+04:00",
+ "subject": "Bigger, clearer end-of-run screen: reason ribbon, big distance, your best, big stats, one huge AGAIN button",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/ui.gd",
+   "add": 61,
+   "del": 37,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

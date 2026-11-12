@@ -1,0 +1,218 @@
+{
+ "sha": "0f483f34e1a92830cf6d29ddf9be8e8bfd82e605",
+ "short": "0f483f3",
+ "parents": [
+  "048426331cf4b168b06125e0afe0543427270a14"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-09T22:54:29+04:00",
+ "subject": "Driver character: seated driver in every car, thrown out on crashes",
+ "body": "- Driver.tscn (AnimatedSprite2D): idle/driving/accelerating/braking/jumping/scared/\n  crashing/recovering from the car's speed, input, air time and tilt; switches only on change\n- EjectedDriver.tscn (RigidBody2D, own layer): spawned once at crash with the seat's velocity\n  (incl. spin) + impulse, tumbles, lands with the dizzy frames; freed with the car\n- DriverConfig resource (purple_driver.tres) for future characters\n- seats.json: each car's driver window / open seat; driver clipped to the window\n- car.make_ejection_data / eject_driver / driver_ejected: one ejection record, ready to be\n  sent by a server later; replays show the thrown driver\n- tools/import_driver.py cuts the sprite sheet and writes the SpriteFrames\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/seats.json",
+   "add": 32,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/README.md",
+   "add": 44,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_2.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_2.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_3.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/fall_3.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/land_1.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/land_1.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/land_2.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/land_2.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/purple_frames.tres",
+   "add": 64,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_angry.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_angry.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_happy.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_happy.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_scared.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple/seat_scared.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "assets/drivers/purple_driver.tres",
+   "add": 19,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scenes/driver/Driver.tscn",
+   "add": 7,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scenes/driver/EjectedDriver.tscn",
+   "add": 22,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/car.gd",
+   "add": 86,
+   "del": 27,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 9,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/driver/driver.gd",
+   "add": 70,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/driver/driver.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/driver/driver_config.gd",
+   "add": 24,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/driver/driver_config.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/driver/ejected_driver.gd",
+   "add": 62,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/driver/ejected_driver.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 12,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet.png",
+   "add": null,
+   "del": null,
+   "status": "A"
+  },
+  {
+   "path": "tools/driver_src/purple_driver_sheet.png.import",
+   "add": 40,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_driver.py",
+   "add": 127,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}
