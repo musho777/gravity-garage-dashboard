@@ -1,0 +1,32 @@
+{
+ "sha": "c6f17154e1f60e2f7896aea293734839da046a98",
+ "short": "c6f1715",
+ "parents": [
+  "acef4c4a2eb84ff178802bbbd94d026a076947e4"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T21:37:27+04:00",
+ "subject": "Smooth movement of other players' cars in online races",
+ "body": "- Positions carry the sender's physics-step time; others replay them on that\n  timeline (120 ms behind), not by arrival time, so Wi-Fi delays don't jerk the car\n- Other cars are placed in the physics step with a per-step clock (the wall clock is\n  the same for both physics steps of a frame, which made cars stop-and-jump)\n- Late message: keep moving along the last direction up to 120 ms\n- Self-test measures the other car's jitter (10.9 px -> 0.12 px per step)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 21,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/net.gd",
+   "add": 11,
+   "del": 7,
+   "status": "M"
+  },
+  {
+   "path": "scripts/race.gd",
+   "add": 45,
+   "del": 12,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

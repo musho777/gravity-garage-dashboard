@@ -1,0 +1,32 @@
+{
+ "sha": "265ed35e05bef76dee6f6b8cf528f72dbc19ea70",
+ "short": "265ed35",
+ "parents": [
+  "31e10a89ef12f4af37ec98ca5627b287e3986e16"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T01:21:30+04:00",
+ "subject": "4 new maps: Autumn Valley, Pyramid Desert, Crystal Caves, Cloud Kingdom",
+ "body": "- each with its own sky/ground colors, props (autumn trees + leaf piles, pyramids + cacti,\n  glowing crystal clusters, rainbows + floating clouds), obstacles and garage thumbnail\n- map tires extended: Sand Paddles -> Pyramids, Mud -> Autumn, Moon -> Cloud Kingdom (low gravity)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 39,
+   "del": 7,
+   "status": "M"
+  },
+  {
+   "path": "scripts/planet_thumb.gd",
+   "add": 26,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/terrain.gd",
+   "add": 69,
+   "del": 0,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

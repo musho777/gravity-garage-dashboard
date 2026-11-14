@@ -1,0 +1,38 @@
+{
+ "sha": "773475049bfd0147b1bfe63571f93313b6e56a6e",
+ "short": "7734750",
+ "parents": [
+  "407969b412933a3c7c99a678b901dcc147e3f31e"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T21:11:00+04:00",
+ "subject": "Online rooms: create or join a room, the host starts the race",
+ "body": "- Room list with JOIN (shows players, racing, full) and CREATE ROOM\n- Inside a room: players with a HOST tag; only the host can START RACE (2+ players)\n- After a race everyone goes back to the same room; if the host leaves, the next player hosts\n- Past the finish line your car parks and can't move until the race is over\n- Robots: --name, --car and --join=<host> to fill a friend's room; --hostbot hosts a room\n- Test option --port=N for a second server\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "race-server.sh",
+   "add": 2,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 214,
+   "del": 54,
+   "status": "M"
+  },
+  {
+   "path": "scripts/net.gd",
+   "add": 210,
+   "del": 84,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 109,
+   "del": 19,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

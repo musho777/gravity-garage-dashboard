@@ -1,0 +1,38 @@
+{
+ "sha": "d3bd28314374325a816bf2792641cf260635584d",
+ "short": "d3bd283",
+ "parents": [
+  "265ed35e05bef76dee6f6b8cf528f72dbc19ea70"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T01:33:51+04:00",
+ "subject": "Weather + Settings",
+ "body": "- weather layer (screen-space, one draw item): rain with lightning flashes (Jungle, Pine Forest,\n  Haunted Hollow), snow (Snowy Woods, Glacier Run), falling leaves (Autumn Valley), embers\n  (Volcano), sparkles (Crystal Caves); Pyramid Desert stays clear\n- Settings page from the garage: Music, Sound and Weather ON/OFF (saved)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 8,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 38,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 58,
+   "del": 10,
+   "status": "M"
+  },
+  {
+   "path": "scripts/weather.gd",
+   "add": 106,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

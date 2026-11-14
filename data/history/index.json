@@ -1,6 +1,708 @@
 {
- "updated": "2026-11-13T00:47:02+04:00",
+ "updated": "2026-11-14T09:11:29+04:00",
  "commits": [
+  {
+   "sha": "4a1b60f71997bfe7103cc0eef9cb326a36cfec06",
+   "short": "4a1b60f",
+   "parents": [
+    "c6f17154e1f60e2f7896aea293734839da046a98"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T22:08:23+04:00",
+   "subject": "Raise mid/late game prices and sort the garage by price",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "pickup",
+      "ufo",
+      "rescue"
+     ],
+     "stats": [
+      "logger",
+      "snowmobile",
+      "toucan",
+      "candy",
+      "dozer",
+      "dino",
+      "pickup",
+      "pirate",
+      "tank",
+      "rover",
+      "ufo",
+      "rescue",
+      "flamebuggy",
+      "bluesport",
+      "turbopolice",
+      "rocket"
+     ]
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "forest",
+      "volcano",
+      "autumn"
+     ],
+     "stats": [
+      "autumn",
+      "snow",
+      "pyramids",
+      "candy",
+      "crystal",
+      "haunted",
+      "clouds"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "paint/gold",
+      "paint/chrome",
+      "tires/neon",
+      "tires/gold"
+     ]
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "c6f17154e1f60e2f7896aea293734839da046a98",
+   "short": "c6f1715",
+   "parents": [
+    "acef4c4a2eb84ff178802bbbd94d026a076947e4"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T21:37:27+04:00",
+   "subject": "Smooth movement of other players' cars in online races",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "acef4c4a2eb84ff178802bbbd94d026a076947e4",
+   "short": "acef4c4",
+   "parents": [
+    "321655d36d475ca28be46d177bcf6ede45c205b8"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T21:25:38+04:00",
+   "subject": "Redesign room list and create room as full-screen pages",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "321655d36d475ca28be46d177bcf6ede45c205b8",
+   "short": "321655d",
+   "parents": [
+    "773475049bfd0147b1bfe63571f93313b6e56a6e"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T21:20:27+04:00",
+   "subject": "Room setup: host picks map, players and distance; room closes when the host leaves",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "773475049bfd0147b1bfe63571f93313b6e56a6e",
+   "short": "7734750",
+   "parents": [
+    "407969b412933a3c7c99a678b901dcc147e3f31e"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T21:11:00+04:00",
+   "subject": "Online rooms: create or join a room, the host starts the race",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "407969b412933a3c7c99a678b901dcc147e3f31e",
+   "short": "407969b",
+   "parents": [
+    "8bb6b0bdca8a994005749d961ffb452884d03139"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T20:32:01+04:00",
+   "subject": "Change your racing name in Settings or the online waiting room",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "8bb6b0bdca8a994005749d961ffb452884d03139",
+   "short": "8bb6b0b",
+   "parents": [
+    "dbed2e318ab1ead95adb90ce6eeea7b8150aaceb"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T20:25:30+04:00",
+   "subject": "Online races: 2-4 players race live to a 600 m finish line",
+   "files": 9,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "dbed2e318ab1ead95adb90ce6eeea7b8150aaceb",
+   "short": "dbed2e3",
+   "parents": [
+    "9bcad275fef09e4d94e1f081fece52544eb7021a"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T19:52:14+04:00",
+   "subject": "Version 1.0.0",
+   "files": 1,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "9bcad275fef09e4d94e1f081fece52544eb7021a",
+   "short": "9bcad27",
+   "parents": [
+    "da20f220a81d7c79965252bb22ad7badbf82e24c"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T01:43:44+04:00",
+   "subject": "Remove My Car and the Workshop (build your own car)",
+   "files": 5,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [
+      "custom"
+     ],
+     "look": [
+      "police",
+      "dino",
+      "rescue",
+      "ufo",
+      "rocket"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [
+      "extras/spoiler",
+      "extras/siren",
+      "extras/flag",
+      "extras/pipes",
+      "extras/roofrack",
+      "extras/antenna",
+      "extras/horns",
+      "extras/fin",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky",
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup",
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "engine/stock",
+      "engine/v6",
+      "engine/v8",
+      "engine/rocket",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet"
+     ],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 29,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "da20f220a81d7c79965252bb22ad7badbf82e24c",
+   "short": "da20f22",
+   "parents": [
+    "d3bd28314374325a816bf2792641cf260635584d"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T01:38:01+04:00",
+   "subject": "Settings card same size as the pause menu; weather OFF clears the screen right away",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "d3bd28314374325a816bf2792641cf260635584d",
+   "short": "d3bd283",
+   "parents": [
+    "265ed35e05bef76dee6f6b8cf528f72dbc19ea70"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T01:33:51+04:00",
+   "subject": "Weather + Settings",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": [
+      "jungle",
+      "ice",
+      "forest",
+      "autumn",
+      "volcano",
+      "snow",
+      "crystal",
+      "haunted"
+     ]
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "265ed35e05bef76dee6f6b8cf528f72dbc19ea70",
+   "short": "265ed35",
+   "parents": [
+    "31e10a89ef12f4af37ec98ca5627b287e3986e16"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T01:21:30+04:00",
+   "subject": "4 new maps: Autumn Valley, Pyramid Desert, Crystal Caves, Cloud Kingdom",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [
+      "autumn",
+      "pyramids",
+      "crystal",
+      "clouds"
+     ],
+     "removed": [],
+     "look": [
+      "dust",
+      "jungle",
+      "farm",
+      "moon",
+      "beach",
+      "city",
+      "mars",
+      "forest",
+      "volcano",
+      "snow",
+      "candy",
+      "haunted"
+     ],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "tires/paddle",
+      "tires/mud",
+      "tires/moon"
+     ]
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 19
+   }
+  },
+  {
+   "sha": "31e10a89ef12f4af37ec98ca5627b287e3986e16",
+   "short": "31e10a8",
+   "parents": [
+    "9363fbbad37d073699471dbaf31566f466c3e34b"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T01:01:52+04:00",
+   "subject": "4 map tires: Sand Paddles, Mud Tires, Moon Tires, Street Slicks",
+   "files": 2,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [
+      "tires/paddle",
+      "tires/mud",
+      "tires/moon",
+      "tires/slick"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "9363fbbad37d073699471dbaf31566f466c3e34b",
+   "short": "9363fbb",
+   "parents": [
+    "4afb41159fa7592873fd0881d8c5251314c3a22b"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T00:56:37+04:00",
+   "subject": "New decal set in the cartoon car style + fixes",
+   "files": 4,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [
+      "custom"
+     ],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": [
+      "decal/stripes",
+      "decal/number",
+      "decal/stars",
+      "decal/checker",
+      "decal/flames",
+      "decal/lightning",
+      "decal/dots",
+      "decal/zigzag",
+      "decal/hearts",
+      "decal/wave"
+     ]
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "4afb41159fa7592873fd0881d8c5251314c3a22b",
+   "short": "4afb411",
+   "parents": [
+    "dc1e60665f2dcda2967e78e9a8e5c903ae7b7183"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T00:47:57+04:00",
+   "subject": "Decals: size/move controls also while previewing, so you can place a decal before buying it",
+   "files": 3,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
+  {
+   "sha": "dc1e60665f2dcda2967e78e9a8e5c903ae7b7183",
+   "short": "dc1e606",
+   "parents": [
+    "5a19d40ff2dc0a647468ae30a86e1225412cc2ac"
+   ],
+   "author": "musho7-dev",
+   "date": "2026-11-13T00:45:29+04:00",
+   "subject": "Decals that fit the picture cars + decal pictures + size/position controls",
+   "files": 8,
+   "export_ok": true,
+   "has_parent_snapshot": true,
+   "changes": {
+    "cars": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "maps": {
+     "added": [],
+     "removed": [],
+     "look": [],
+     "stats": []
+    },
+    "parts": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   },
+   "counts": {
+    "cars": 30,
+    "maps": 15
+   }
+  },
   {
    "sha": "5a19d40ff2dc0a647468ae30a86e1225412cc2ac",
    "short": "5a19d40",
@@ -1744,16 +2446,6 @@
       "decal/zigzag",
       "decal/hearts",
       "decal/wave",
-      "engine/turbo",
-      "engine/electric",
-      "engine/jet",
-      "body/beetle",
-      "body/jeep",
-      "body/truck",
-      "body/hotrod",
-      "wheels/drift",
-      "wheels/tractor",
-      "wheels/spiky",
       "extras/roofrack",
       "extras/antenna",
       "extras/horns",
@@ -1763,7 +2455,17 @@
       "paint/sky",
       "paint/navy",
       "paint/cherry",
-      "paint/chrome"
+      "paint/chrome",
+      "wheels/drift",
+      "wheels/tractor",
+      "wheels/spiky",
+      "body/beetle",
+      "body/jeep",
+      "body/truck",
+      "body/hotrod",
+      "engine/turbo",
+      "engine/electric",
+      "engine/jet"
      ],
      "removed": [],
      "changed": []
@@ -2823,16 +3525,6 @@
     },
     "parts": {
      "added": [
-      "wheels/standard",
-      "wheels/racing",
-      "wheels/offroad",
-      "wheels/monster",
-      "decal/none",
-      "decal/stripes",
-      "decal/number",
-      "decal/stars",
-      "decal/checker",
-      "decal/flames",
       "paint/teal",
       "paint/red",
       "paint/orange",
@@ -2844,6 +3536,20 @@
       "paint/black",
       "paint/white",
       "paint/gold",
+      "wheels/standard",
+      "wheels/racing",
+      "wheels/offroad",
+      "wheels/monster",
+      "decal/none",
+      "decal/stripes",
+      "decal/number",
+      "decal/stars",
+      "decal/checker",
+      "decal/flames",
+      "body/buggy",
+      "body/kart",
+      "body/racer",
+      "body/pickup",
       "extras/spoiler",
       "extras/siren",
       "extras/flag",
@@ -2851,11 +3557,7 @@
       "engine/stock",
       "engine/v6",
       "engine/v8",
-      "engine/rocket",
-      "body/buggy",
-      "body/kart",
-      "body/racer",
-      "body/pickup"
+      "engine/rocket"
      ],
      "removed": [],
      "changed": []

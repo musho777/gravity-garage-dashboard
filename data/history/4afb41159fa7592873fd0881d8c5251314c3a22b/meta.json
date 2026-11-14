@@ -1,0 +1,32 @@
+{
+ "sha": "4afb41159fa7592873fd0881d8c5251314c3a22b",
+ "short": "4afb411",
+ "parents": [
+  "dc1e60665f2dcda2967e78e9a8e5c903ae7b7183"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T00:47:57+04:00",
+ "subject": "Decals: size/move controls also while previewing, so you can place a decal before buying it",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/decal_icon.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 4,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 4,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

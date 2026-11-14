@@ -1,0 +1,44 @@
+{
+ "sha": "9bcad275fef09e4d94e1f081fece52544eb7021a",
+ "short": "9bcad27",
+ "parents": [
+  "da20f220a81d7c79965252bb22ad7badbf82e24c"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T01:43:44+04:00",
+ "subject": "Remove My Car and the Workshop (build your own car)",
+ "body": "- removed: My Car, BUILD YOUR CAR button, workshop screen, its parts (bodies, engines, wheels,\n  extras) and their drawing code; paint, decals and tires stay (used by TUNE for every car)\n- old saves: workshop parts bought are refunded as coins; My Car selected -> City Hatch\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 2,
+   "del": 220,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 3,
+   "del": 91,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 16,
+   "del": 82,
+   "status": "M"
+  },
+  {
+   "path": "scripts/thumbs.gd",
+   "add": 0,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 2,
+   "del": 267,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

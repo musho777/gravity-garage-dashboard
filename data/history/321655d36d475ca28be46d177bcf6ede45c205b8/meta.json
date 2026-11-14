@@ -1,0 +1,38 @@
+{
+ "sha": "321655d36d475ca28be46d177bcf6ede45c205b8",
+ "short": "321655d",
+ "parents": [
+  "773475049bfd0147b1bfe63571f93313b6e56a6e"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T21:20:27+04:00",
+ "subject": "Room setup: host picks map, players and distance; room closes when the host leaves",
+ "body": "- CREATE ROOM screen: map (only unlocked ones), 2-4 players, 300/600/1000/1500 m\n- Joining needs the room's map (NO MAP on the list; the server checks too)\n- Room list and room show map, distance and player count\n- Host leaves -> the room is deleted and everyone returns to the room list\n- Time limit grows with distance\n- Fix: popups (CREATE ROOM, name box) no longer close on room-list refresh\n- Fix: race-server.sh started 2 robots without 'bot' on macOS\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "race-server.sh",
+   "add": 2,
+   "del": 5,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 44,
+   "del": 8,
+   "status": "M"
+  },
+  {
+   "path": "scripts/net.gd",
+   "add": 36,
+   "del": 23,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 131,
+   "del": 11,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

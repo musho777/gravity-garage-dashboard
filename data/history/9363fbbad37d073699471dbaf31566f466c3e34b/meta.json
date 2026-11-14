@@ -1,0 +1,38 @@
+{
+ "sha": "9363fbbad37d073699471dbaf31566f466c3e34b",
+ "short": "9363fbb",
+ "parents": [
+  "4afb41159fa7592873fd0881d8c5251314c3a22b"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T00:56:37+04:00",
+ "subject": "New decal set in the cartoon car style + fixes",
+ "body": "- redrawn: racing stripes w/ gold pinline, race roundel, fluttering finish flag, 3-color flames,\n  big bolt w/ shine, star burst; new: speed lines, shark teeth, love hearts, swoosh (same slots/prices)\n- ink outlines on every decal shape\n- decals kept off window glass (import tool finds windows)\n- MOVE left/right was reversed\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 1007,
+   "del": 2,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 124,
+   "del": 66,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 19,
+   "del": 11,
+   "status": "M"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 25,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

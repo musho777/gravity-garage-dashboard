@@ -1,0 +1,62 @@
+{
+ "sha": "dc1e60665f2dcda2967e78e9a8e5c903ae7b7183",
+ "short": "dc1e606",
+ "parents": [
+  "5a19d40ff2dc0a647468ae30a86e1225412cc2ac"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T00:45:29+04:00",
+ "subject": "Decals that fit the picture cars + decal pictures + size/position controls",
+ "body": "- decals follow each car's real outline at door height, never over the wheel arches,\n  sized to the car, with a cartoon ink outline (import tool stores the outline)\n- Decals tab: 2 per row with a picture of each decal\n- SIZE -/+ and MOVE arrows + RESET, saved per car\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "assets/cars/pack/cars.json",
+   "add": 14767,
+   "del": 2705,
+   "status": "M"
+  },
+  {
+   "path": "scripts/car_art.gd",
+   "add": 53,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 19,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/decal_icon.gd",
+   "add": 27,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 33,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 58,
+   "del": 3,
+   "status": "M"
+  },
+  {
+   "path": "scripts/upgrade_icon.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "tools/import_cars.py",
+   "add": 12,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

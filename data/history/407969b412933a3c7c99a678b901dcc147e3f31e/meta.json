@@ -1,0 +1,26 @@
+{
+ "sha": "407969b412933a3c7c99a678b901dcc147e3f31e",
+ "short": "407969b",
+ "parents": [
+  "8bb6b0bdca8a994005749d961ffb452884d03139"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T20:32:01+04:00",
+ "subject": "Change your racing name in Settings or the online waiting room",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 44,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 104,
+   "del": 2,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

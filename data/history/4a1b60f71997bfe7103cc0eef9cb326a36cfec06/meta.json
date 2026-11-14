@@ -1,0 +1,26 @@
+{
+ "sha": "4a1b60f71997bfe7103cc0eef9cb326a36cfec06",
+ "short": "4a1b60f",
+ "parents": [
+  "c6f17154e1f60e2f7896aea293734839da046a98"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T22:08:23+04:00",
+ "subject": "Raise mid/late game prices and sort the garage by price",
+ "body": "Top cars cost 8,000-15,000, x4/x5 maps cost 4,000-6,000, and premium\npaints and rims cost more. The upgrade price multiplier is capped at 2x.\nCars and maps are listed cheapest first. The Daily Challenge keeps its\nold map rotation, so today's daily map doesn't change. The \"Only X\ncoins to unlock\" hint now shows commas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/data.gd",
+   "add": 25,
+   "del": 21,
+   "status": "M"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

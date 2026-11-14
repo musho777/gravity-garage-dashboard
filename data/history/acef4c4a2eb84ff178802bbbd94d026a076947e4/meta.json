@@ -1,0 +1,26 @@
+{
+ "sha": "acef4c4a2eb84ff178802bbbd94d026a076947e4",
+ "short": "acef4c4",
+ "parents": [
+  "321655d36d475ca28be46d177bcf6ede45c205b8"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T21:25:38+04:00",
+ "subject": "Redesign room list and create room as full-screen pages",
+ "body": "- Room list: YOU card (car picture, name), big CREATE ROOM; open rooms as cards with\n  map picture, distance badge, player dots and JOIN / RACING / FULL / NO MAP\n- Create room: big map preview with name and description; map tiles with pictures,\n  players and distance as big buttons\n- Same layout and safe-area margins as the TUNE screen\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 8,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 253,
+   "del": 61,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

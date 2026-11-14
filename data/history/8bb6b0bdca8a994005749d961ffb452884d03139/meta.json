@@ -1,0 +1,68 @@
+{
+ "sha": "8bb6b0bdca8a994005749d961ffb452884d03139",
+ "short": "8bb6b0b",
+ "parents": [
+  "dbed2e318ab1ead95adb90ce6eeea7b8150aaceb"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T20:25:30+04:00",
+ "subject": "Online races: 2-4 players race live to a 600 m finish line",
+ "body": "- Race server (godot --headless -- --server, ./race-server.sh): rooms of 2-4,\n  random race map, passes car positions between players\n- RACE ONLINE button, waiting room, 3-2-1 countdown, live position,\n  other cars with name tags, finish line, results with coin prizes\n- Crashes respawn you; free push when stuck; no fuel limit in races\n- Practice robots (--racebot) and Local Network permission for iPhone\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "export_presets.cfg",
+   "add": 1,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "race-server.sh",
+   "add": 27,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/main.gd",
+   "add": 310,
+   "del": 21,
+   "status": "M"
+  },
+  {
+   "path": "scripts/minimap.gd",
+   "add": 30,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/net.gd",
+   "add": 368,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/net.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/race.gd",
+   "add": 159,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/race.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 170,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

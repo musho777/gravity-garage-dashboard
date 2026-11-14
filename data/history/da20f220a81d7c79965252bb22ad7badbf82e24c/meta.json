@@ -1,0 +1,38 @@
+{
+ "sha": "da20f220a81d7c79965252bb22ad7badbf82e24c",
+ "short": "da20f22",
+ "parents": [
+  "d3bd28314374325a816bf2792641cf260635584d"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T01:38:01+04:00",
+ "subject": "Settings card same size as the pause menu; weather OFF clears the screen right away",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/main.gd",
+   "add": 5,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/ui.gd",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  },
+  {
+   "path": "scripts/weather.gd",
+   "add": 2,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/weather.gd.uid",
+   "add": 1,
+   "del": 0,
+   "status": "A"
+  }
+ ],
+ "export_ok": true
+}

@@ -1,0 +1,20 @@
+{
+ "sha": "dbed2e318ab1ead95adb90ce6eeea7b8150aaceb",
+ "short": "dbed2e3",
+ "parents": [
+  "9bcad275fef09e4d94e1f081fece52544eb7021a"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T19:52:14+04:00",
+ "subject": "Version 1.0.0",
+ "body": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "export_presets.cfg",
+   "add": 1,
+   "del": 1,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}

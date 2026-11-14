@@ -1,0 +1,26 @@
+{
+ "sha": "31e10a89ef12f4af37ec98ca5627b287e3986e16",
+ "short": "31e10a8",
+ "parents": [
+  "9363fbbad37d073699471dbaf31566f466c3e34b"
+ ],
+ "author": "musho7-dev",
+ "date": "2026-11-13T01:01:52+04:00",
+ "subject": "4 map tires: Sand Paddles, Mud Tires, Moon Tires, Street Slicks",
+ "body": "- big bonus only on their own maps (x1.4 grip sand/mud, x1.35 air on Moon/Mars, +10% speed\n  on City/Construction), small grip penalty elsewhere; each has its own drawing\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+ "files": [
+  {
+   "path": "scripts/car_art.gd",
+   "add": 45,
+   "del": 0,
+   "status": "M"
+  },
+  {
+   "path": "scripts/data.gd",
+   "add": 21,
+   "del": 3,
+   "status": "M"
+  }
+ ],
+ "export_ok": true
+}
